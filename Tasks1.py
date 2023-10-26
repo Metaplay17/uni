@@ -34,7 +34,7 @@
 # print(f'{((n // 60) // 60) % 24}:{(n // 60) % 60:0}:{n % 60:0}')
 
 # h, a, b = int(input()), int(input()), int(input())  # Number 14
-# print((h - a) // (a - b) + 1)
+# print((h - a - 1) // (a - b) + 1)
 
 # n = int(input())  # Number 15
 # print(2 - (n + 2) // (n + 1))
