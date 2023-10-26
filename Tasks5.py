@@ -154,3 +154,25 @@ from math import log10
 # else:
 #     print(ans)
 
+
+# NUMBER 12
+a, b, c, d = (int(input()) for _ in range(4))
+safe_b, safe_d = b, d
+nok = 1
+div = 2
+while div <= max(b, d):
+    while b % div == 0 or d % div == 0:
+        if b % div == 0 and d % div == 0:
+            b, d = b // div, d // div
+            nok *= div
+        elif b % div == 0:
+            nok *= div
+            b //= div
+        else:
+            nok *= div
+            d //= div
+    div += 1
+print(f"{a * (nok // safe_b)}/{nok} {c * (nok // safe_d)}/{nok}")
+
+
+
