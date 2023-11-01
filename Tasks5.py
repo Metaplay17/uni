@@ -2,7 +2,7 @@ from math import log10
 
 # NUMBER 1
 # n = int(input())
-# mx = float("-inf")
+# mx = -10**10
 # while n != 0:
 #     mx = max(n, mx)
 #     n = int(input())
