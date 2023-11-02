@@ -69,7 +69,10 @@
 
 # NUMBER 4
 k = int(input())
-if k == 3 or (k >= 5 and k != 7):
-    print("YES")
+while k > 2:
+    if k % 3 == 0 or k % 5 == 0:
+        print("YES")
+        break
+    k -= 5
 else:
     print("NO")
