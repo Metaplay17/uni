@@ -1,0 +1,19 @@
+D:\Codes\uni\C# 2 semester\Dz 2 novella\bin\Debug\net8.0-windows\Dz 2 novella.exe
+D:\Codes\uni\C# 2 semester\Dz 2 novella\bin\Debug\net8.0-windows\Dz 2 novella.deps.json
+D:\Codes\uni\C# 2 semester\Dz 2 novella\bin\Debug\net8.0-windows\Dz 2 novella.runtimeconfig.json
+D:\Codes\uni\C# 2 semester\Dz 2 novella\bin\Debug\net8.0-windows\Dz 2 novella.dll
+D:\Codes\uni\C# 2 semester\Dz 2 novella\bin\Debug\net8.0-windows\Dz 2 novella.pdb
+D:\Codes\uni\C# 2 semester\Dz 2 novella\obj\Debug\net8.0-windows\Dz_2_novella.StartWindow.resources
+D:\Codes\uni\C# 2 semester\Dz 2 novella\obj\Debug\net8.0-windows\Dz 2 novella.csproj.GenerateResource.cache
+D:\Codes\uni\C# 2 semester\Dz 2 novella\obj\Debug\net8.0-windows\Dz 2 novella.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\uni\C# 2 semester\Dz 2 novella\obj\Debug\net8.0-windows\Dz 2 novella.AssemblyInfoInputs.cache
+D:\Codes\uni\C# 2 semester\Dz 2 novella\obj\Debug\net8.0-windows\Dz 2 novella.AssemblyInfo.cs
+D:\Codes\uni\C# 2 semester\Dz 2 novella\obj\Debug\net8.0-windows\Dz 2 novella.csproj.CoreCompileInputs.cache
+D:\Codes\uni\C# 2 semester\Dz 2 novella\obj\Debug\net8.0-windows\Dz 2 novella.sourcelink.json
+D:\Codes\uni\C# 2 semester\Dz 2 novella\obj\Debug\net8.0-windows\Dz 2 novella.dll
+D:\Codes\uni\C# 2 semester\Dz 2 novella\obj\Debug\net8.0-windows\refint\Dz 2 novella.dll
+D:\Codes\uni\C# 2 semester\Dz 2 novella\obj\Debug\net8.0-windows\Dz 2 novella.pdb
+D:\Codes\uni\C# 2 semester\Dz 2 novella\obj\Debug\net8.0-windows\Dz 2 novella.genruntimeconfig.cache
+D:\Codes\uni\C# 2 semester\Dz 2 novella\obj\Debug\net8.0-windows\ref\Dz 2 novella.dll
+D:\Codes\uni\C# 2 semester\Dz 2 novella\obj\Debug\net8.0-windows\Dz_2_novella.EndForm.resources
+D:\Codes\uni\C# 2 semester\Dz 2 novella\obj\Debug\net8.0-windows\Dz_2_novella.Properties.Resources.resources
