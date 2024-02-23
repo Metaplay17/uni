@@ -8,8 +8,8 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Furina\\.nuget\\packages\\": {},
-    "D:\\Programs\\Visual Studio 2022 Instruments\\NuGetPackages": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "D:\\Programs\\VisualStudio2022Instruments\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -17,14 +17,14 @@
       "projectUniqueName": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\Dz 2 novella.csproj",
       "projectName": "Dz 2 novella",
       "projectPath": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\Dz 2 novella.csproj",
-      "packagesPath": "C:\\Users\\Furina\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Programs\\Visual Studio 2022 Instruments\\NuGetPackages"
+        "D:\\Programs\\VisualStudio2022Instruments\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Furina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

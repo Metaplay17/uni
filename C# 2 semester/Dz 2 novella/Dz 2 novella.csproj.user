@@ -4,6 +4,15 @@
     <Compile Update="EndForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FinalChoiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GoodEndingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LastChallengeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Next1.cs">
       <SubType>Form</SubType>
     </Compile>

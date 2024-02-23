@@ -4,33 +4,28 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Dz_2_novella
 {
-    public partial class Next1 : Form
+    public partial class FinalChoiceForm : Form
     {
         EndForm endForm;
-        FinalChoiceForm finalForm;
-        public Next1(EndForm endForm)
+        LastChallengeForm lastForm;
+        public FinalChoiceForm(EndForm endForm)
         {
             InitializeComponent();
             this.endForm = endForm;
-            this.finalForm = new FinalChoiceForm(endForm);
+            this.lastForm = new LastChallengeForm(endForm);
         }
 
-        private void kickButton2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            endForm.Show();
-        }
-
-        private void ignoreButton_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            finalForm.Show();
+            lastForm.Show();
         }
     }
 }

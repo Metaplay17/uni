@@ -12,9 +12,9 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Furina\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Furina\\.nuget\\packages",
-      "D:\\Programs\\Visual Studio 2022 Instruments\\NuGetPackages"
+      "C:\\Users\\User\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\User\\.nuget\\packages",
+      "D:\\Programs\\VisualStudio2022Instruments\\NuGetPackages"
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,

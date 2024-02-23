@@ -17,3 +17,7 @@ D:\Codes\uni\C# 2 semester\Dz 2 novella\obj\Debug\net8.0-windows\Dz 2 novella.ge
 D:\Codes\uni\C# 2 semester\Dz 2 novella\obj\Debug\net8.0-windows\ref\Dz 2 novella.dll
 D:\Codes\uni\C# 2 semester\Dz 2 novella\obj\Debug\net8.0-windows\Dz_2_novella.EndForm.resources
 D:\Codes\uni\C# 2 semester\Dz 2 novella\obj\Debug\net8.0-windows\Dz_2_novella.Properties.Resources.resources
+D:\Codes\uni\C# 2 semester\Dz 2 novella\obj\Debug\net8.0-windows\Dz_2_novella.FinalChoiceForm.resources
+D:\Codes\uni\C# 2 semester\Dz 2 novella\obj\Debug\net8.0-windows\Dz_2_novella.LastChallengeForm.resources
+D:\Codes\uni\C# 2 semester\Dz 2 novella\obj\Debug\net8.0-windows\Dz_2_novella.Next1.resources
+D:\Codes\uni\C# 2 semester\Dz 2 novella\obj\Debug\net8.0-windows\Dz_2_novella.GoodEndingForm.resources

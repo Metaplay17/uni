@@ -51,26 +51,30 @@
             panel1.Controls.Add(label1);
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(800, 450);
+            panel1.Size = new Size(700, 338);
             panel1.TabIndex = 0;
             // 
             // button3
             // 
             button3.Font = new Font("Segoe UI", 14F);
-            button3.Location = new Point(332, 354);
+            button3.Location = new Point(290, 266);
+            button3.Margin = new Padding(3, 2, 3, 2);
             button3.Name = "button3";
-            button3.Size = new Size(128, 54);
+            button3.Size = new Size(112, 40);
             button3.TabIndex = 4;
             button3.Text = "Ignore.";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // KickButton2
             // 
             KickButton2.Font = new Font("Segoe UI", 14F);
-            KickButton2.Location = new Point(655, 354);
+            KickButton2.Location = new Point(573, 266);
+            KickButton2.Margin = new Padding(3, 2, 3, 2);
             KickButton2.Name = "KickButton2";
-            KickButton2.Size = new Size(124, 54);
+            KickButton2.Size = new Size(108, 40);
             KickButton2.TabIndex = 3;
             KickButton2.Text = "KICK IT!!!";
             KickButton2.UseVisualStyleBackColor = true;
@@ -79,9 +83,10 @@
             // KickButton1
             // 
             KickButton1.Font = new Font("Segoe UI", 14F);
-            KickButton1.Location = new Point(12, 354);
+            KickButton1.Location = new Point(10, 266);
+            KickButton1.Margin = new Padding(3, 2, 3, 2);
             KickButton1.Name = "KickButton1";
-            KickButton1.Size = new Size(128, 54);
+            KickButton1.Size = new Size(112, 40);
             KickButton1.TabIndex = 2;
             KickButton1.Text = "Kick It!";
             KickButton1.UseVisualStyleBackColor = true;
@@ -90,9 +95,10 @@
             // mainPicture1
             // 
             mainPicture1.Image = (Image)resources.GetObject("mainPicture1.Image");
-            mainPicture1.Location = new Point(12, 110);
+            mainPicture1.Location = new Point(10, 82);
+            mainPicture1.Margin = new Padding(3, 2, 3, 2);
             mainPicture1.Name = "mainPicture1";
-            mainPicture1.Size = new Size(776, 192);
+            mainPicture1.Size = new Size(679, 144);
             mainPicture1.SizeMode = PictureBoxSizeMode.StretchImage;
             mainPicture1.TabIndex = 1;
             mainPicture1.TabStop = false;
@@ -100,9 +106,9 @@
             // label1
             // 
             label1.Font = new Font("Segoe UI", 16F);
-            label1.Location = new Point(204, 62);
+            label1.Location = new Point(178, 46);
             label1.Name = "label1";
-            label1.Size = new Size(414, 45);
+            label1.Size = new Size(362, 34);
             label1.TabIndex = 0;
             label1.Text = "You see volleyball ball";
             label1.TextAlign = ContentAlignment.TopCenter;
@@ -115,10 +121,11 @@
             // 
             // StartWindow
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(700, 338);
             Controls.Add(panel1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "StartWindow";
             Text = "Start";
             panel1.ResumeLayout(false);

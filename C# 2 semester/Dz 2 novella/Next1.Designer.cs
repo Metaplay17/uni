@@ -30,11 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Next1));
             panel1 = new Panel();
-            label1 = new Label();
-            pictureBox1 = new PictureBox();
-            kickButton1 = new Button();
-            kickButton2 = new Button();
             ignoreButton = new Button();
+            kickButton2 = new Button();
+            kickButton1 = new Button();
+            pictureBox1 = new PictureBox();
+            label1 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -49,66 +49,75 @@
             panel1.Controls.Add(label1);
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(800, 450);
+            panel1.Size = new Size(700, 338);
             panel1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            label1.Font = new Font("Segoe UI", 22F);
-            label1.Location = new Point(75, 52);
-            label1.Name = "label1";
-            label1.Size = new Size(614, 54);
-            label1.TabIndex = 0;
-            label1.Text = "You hear somebody tells \"Kick this\"";
-            label1.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(12, 130);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(776, 188);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 1;
-            pictureBox1.TabStop = false;
-            // 
-            // kickButton1
-            // 
-            kickButton1.Font = new Font("Segoe UI", 16F);
-            kickButton1.Location = new Point(12, 369);
-            kickButton1.Name = "kickButton1";
-            kickButton1.Size = new Size(160, 53);
-            kickButton1.TabIndex = 2;
-            kickButton1.Text = "Kick It";
-            kickButton1.UseVisualStyleBackColor = true;
-            // 
-            // kickButton2
-            // 
-            kickButton2.Font = new Font("Segoe UI", 16F);
-            kickButton2.Location = new Point(626, 369);
-            kickButton2.Name = "kickButton2";
-            kickButton2.Size = new Size(162, 53);
-            kickButton2.TabIndex = 3;
-            kickButton2.Text = "KICK IT!!!";
-            kickButton2.UseVisualStyleBackColor = true;
             // 
             // ignoreButton
             // 
             ignoreButton.Font = new Font("Segoe UI", 16F);
-            ignoreButton.Location = new Point(270, 369);
+            ignoreButton.Location = new Point(236, 277);
+            ignoreButton.Margin = new Padding(3, 2, 3, 2);
             ignoreButton.Name = "ignoreButton";
-            ignoreButton.Size = new Size(277, 53);
+            ignoreButton.Size = new Size(242, 40);
             ignoreButton.TabIndex = 4;
             ignoreButton.Text = "Still ignore";
             ignoreButton.UseVisualStyleBackColor = true;
+            ignoreButton.Click += ignoreButton_Click;
+            // 
+            // kickButton2
+            // 
+            kickButton2.Font = new Font("Segoe UI", 16F);
+            kickButton2.Location = new Point(548, 277);
+            kickButton2.Margin = new Padding(3, 2, 3, 2);
+            kickButton2.Name = "kickButton2";
+            kickButton2.Size = new Size(142, 40);
+            kickButton2.TabIndex = 3;
+            kickButton2.Text = "KICK IT!!!";
+            kickButton2.UseVisualStyleBackColor = true;
+            kickButton2.Click += kickButton2_Click;
+            // 
+            // kickButton1
+            // 
+            kickButton1.Font = new Font("Segoe UI", 16F);
+            kickButton1.Location = new Point(10, 277);
+            kickButton1.Margin = new Padding(3, 2, 3, 2);
+            kickButton1.Name = "kickButton1";
+            kickButton1.Size = new Size(140, 40);
+            kickButton1.TabIndex = 2;
+            kickButton1.Text = "Kick It";
+            kickButton1.UseVisualStyleBackColor = true;
+            kickButton1.Click += kickButton2_Click;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(10, 98);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(679, 141);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 1;
+            pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            label1.Font = new Font("Segoe UI", 22F);
+            label1.Location = new Point(66, 39);
+            label1.Name = "label1";
+            label1.Size = new Size(537, 40);
+            label1.TabIndex = 0;
+            label1.Text = "You hear somebody tells \"Kick this\"";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // Next1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(700, 338);
             Controls.Add(panel1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Next1";
             Text = "Next1";
             panel1.ResumeLayout(false);
