@@ -19,12 +19,12 @@ namespace Dz_2_novella
         {
             InitializeComponent();
             this.endForm = endForm;
-            this.lastForm = new LastChallengeForm(endForm);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
+            this.lastForm = new LastChallengeForm(endForm);
             lastForm.Show();
         }
     }

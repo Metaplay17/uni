@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|solutionrelative:lastchallengeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|d:\\codes\\uni\\c# 2 semester\\dz 2 novella\\lastchallengeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\lastchallengeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|solutionrelative:lastchallengeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|d:\\codes\\uni\\c# 2 semester\\dz 2 novella\\finalchoiceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|solutionrelative:finalchoiceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FinalChoiceForm.cs",
+              "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\FinalChoiceForm.cs",
+              "RelativeDocumentMoniker": "FinalChoiceForm.cs",
+              "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\FinalChoiceForm.cs",
+              "RelativeToolTip": "FinalChoiceForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T07:09:40.236Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,7 +61,7 @@
               "RelativeDocumentMoniker": "LastChallengeForm.cs",
               "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\LastChallengeForm.cs",
               "RelativeToolTip": "LastChallengeForm.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAuwDkAAAAlAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwDwAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T15:02:35.807Z",
               "EditorCaption": ""

@@ -46,7 +46,7 @@
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(800, 450);
+            panel1.Size = new Size(800, 562);
             panel1.TabIndex = 0;
             // 
             // panel2
@@ -55,16 +55,14 @@
             panel2.Controls.Add(challengeButton);
             panel2.Location = new Point(12, 121);
             panel2.Name = "panel2";
-            panel2.Size = new Size(776, 317);
+            panel2.Size = new Size(776, 429);
             panel2.TabIndex = 2;
-            panel2.MouseHover += panel2_MouseHover;
-            panel2.MouseMove += panel2_MouseMove;
             // 
             // challengeButton
             // 
             challengeButton.Location = new Point(60, 47);
             challengeButton.Name = "challengeButton";
-            challengeButton.Size = new Size(27, 27);
+            challengeButton.Size = new Size(34, 33);
             challengeButton.TabIndex = 0;
             challengeButton.UseVisualStyleBackColor = true;
             challengeButton.Click += challengeButton_Click;
@@ -93,7 +91,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 562);
             Controls.Add(panel1);
             Name = "LastChallengeForm";
             Text = "LastChallengeForm";

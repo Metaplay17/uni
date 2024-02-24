@@ -28,12 +28,14 @@ namespace Dz_2_novella
             timer.Start();
 
             buttonTimer = new System.Windows.Forms.Timer();
-            buttonTimer.Interval = 50;
+            buttonTimer.Interval = 400;
 
             this.endForm = endForm;
 
             timer.Tick += Timer_Tick;
             buttonTimer.Tick += ButtonTimer_Tick;
+
+            buttonTimer.Start();
         }
 
         private void Timer_Tick(object sender, EventArgs e)
@@ -47,25 +49,38 @@ namespace Dz_2_novella
 
             if (seconds == 30)
             {
+                timer.Stop();
                 endForm.Show();
-                this.Hide();
+                this.Close();
             }
         }
 
         private void ButtonTimer_Tick(object sender, EventArgs e)
         {
-            int maxX = panel2.Width;
-            int maxY = panel2.Height;
-            
-            int newY = Math.Max(Math.Abs(random.Next(0, 100) - challengeButton.Location.Y), Math.Abs(random.Next(200, maxY) - challengeButton.Location.Y));
+            int maxX = panel2.Width - 10, newX;
+            int maxY = panel2.Height - 10, newY;
 
+            int randomLeftX = random.Next(30, 100);
+            int randomRightX = random.Next(250, maxX);
+            int randomLeftY = random.Next(30, 100);
+            int randomRightY = random.Next(200, maxY);
+            if (Math.Abs(randomLeftX - Cursor.Position.X) > Math.Abs(randomRightX - Cursor.Position.X))
+            {
+                newX = randomLeftX;
+            }
+            else
+            {
+                newX = randomRightX;
+            }
+            if (Math.Abs(randomLeftY - Cursor.Position.Y) > Math.Abs(randomRightY - Cursor.Position.Y))
+            {
+                newY = randomLeftY;
+            }
+            else
+            {
+                newY = randomRightY;
+            }
             challengeButton.Location = new Point(newX, newY);
-            buttonTimer.Stop();
-        }
-
-        private void panel2_MouseMove(object sender, MouseEventArgs e)
-        {
-            buttonTimer.Start();
         }
 
         private void challengeButton_Click(object sender, EventArgs e)
@@ -73,11 +88,6 @@ namespace Dz_2_novella
             timer.Stop();
             this.Close();
             goodForm.Show();
-        }
-
-        private void panel2_MouseHover(object sender, EventArgs e)
-        {
-            buttonTimer.Stop();
         }
     }
 }
