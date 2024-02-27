@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dz 2 novella")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d7485eeb4058fc5f369e1bbdacc77dda7529cc3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63eb84fa0beecbcb43823bedc765865b33282af5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dz 2 novella")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dz 2 novella")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

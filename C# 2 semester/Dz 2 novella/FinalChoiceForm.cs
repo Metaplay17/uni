@@ -27,5 +27,11 @@ namespace Dz_2_novella
             this.lastForm = new LastChallengeForm(endForm);
             lastForm.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            endForm.Show();
+            this.Close();
+        }
     }
 }

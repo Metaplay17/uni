@@ -41,16 +41,18 @@
             panel1.Controls.Add(label1);
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(800, 256);
+            panel1.Size = new Size(914, 341);
             panel1.TabIndex = 0;
             // 
             // exitButton
             // 
             exitButton.Font = new Font("Segoe UI", 32F);
-            exitButton.Location = new Point(217, 147);
+            exitButton.Location = new Point(248, 196);
+            exitButton.Margin = new Padding(3, 4, 3, 4);
             exitButton.Name = "exitButton";
-            exitButton.Size = new Size(301, 71);
+            exitButton.Size = new Size(344, 95);
             exitButton.TabIndex = 1;
             exitButton.Text = "Exit";
             exitButton.UseVisualStyleBackColor = true;
@@ -59,18 +61,19 @@
             // label1
             // 
             label1.Font = new Font("Segoe UI", 22F);
-            label1.Location = new Point(129, 30);
+            label1.Location = new Point(147, 40);
             label1.Name = "label1";
-            label1.Size = new Size(498, 105);
+            label1.Size = new Size(626, 142);
             label1.TabIndex = 0;
             label1.Text = "You complete the challenge. Seems like success, my congratulations!";
             // 
             // GoodEndingForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 256);
+            ClientSize = new Size(914, 341);
             Controls.Add(panel1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "GoodEndingForm";
             Text = "GoodEndingForm";
             panel1.ResumeLayout(false);

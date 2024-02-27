@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|d:\\codes\\uni\\c# 2 semester\\dz 2 novella\\goodendingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|solutionrelative:goodendingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\finalchoiceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|solutionrelative:finalchoiceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|d:\\codes\\uni\\c# 2 semester\\dz 2 novella\\next1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|solutionrelative:next1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|d:\\codes\\uni\\c# 2 semester\\dz 2 novella\\next1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|solutionrelative:next1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|d:\\codes\\uni\\c# 2 semester\\dz 2 novella\\startwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|solutionrelative:startwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|d:\\codes\\uni\\c# 2 semester\\dz 2 novella\\startwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|solutionrelative:startwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|d:\\codes\\uni\\c# 2 semester\\dz 2 novella\\finalchoiceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|solutionrelative:finalchoiceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|d:\\codes\\uni\\c# 2 semester\\dz 2 novella\\lastchallengeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|solutionrelative:lastchallengeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\lastchallengeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|solutionrelative:lastchallengeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|d:\\codes\\uni\\c# 2 semester\\dz 2 novella\\finalchoiceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31881B2B-F4F1-47AC-A173-61FF7DE717D2}|Dz 2 novella.csproj|solutionrelative:finalchoiceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,40 +46,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GoodEndingForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\GoodEndingForm.cs",
+              "RelativeDocumentMoniker": "GoodEndingForm.cs",
+              "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\GoodEndingForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "GoodEndingForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T04:37:50.836Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Next1.cs",
+              "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\Next1.cs",
+              "RelativeDocumentMoniker": "Next1.cs",
+              "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\Next1.cs",
+              "RelativeToolTip": "Next1.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAACAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T04:34:01.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StartWindow.cs",
+              "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\StartWindow.cs",
+              "RelativeDocumentMoniker": "StartWindow.cs",
+              "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\StartWindow.cs",
+              "RelativeToolTip": "StartWindow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T04:35:38.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StartWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\StartWindow.cs",
+              "RelativeDocumentMoniker": "StartWindow.cs",
+              "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\StartWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "StartWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T04:35:34.008Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Next1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\Next1.cs",
+              "RelativeDocumentMoniker": "Next1.cs",
+              "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\Next1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "Next1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T04:35:14.302Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FinalChoiceForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\FinalChoiceForm.cs",
+              "RelativeDocumentMoniker": "FinalChoiceForm.cs",
+              "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\FinalChoiceForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "FinalChoiceForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T04:33:05.308Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FinalChoiceForm.cs",
               "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\FinalChoiceForm.cs",
               "RelativeDocumentMoniker": "FinalChoiceForm.cs",
               "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\FinalChoiceForm.cs",
               "RelativeToolTip": "FinalChoiceForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA7AAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAwCEAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-24T07:09:40.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LastChallengeForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentIndex": 8,
+              "Title": "LastChallengeForm.cs [Design]",
               "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\LastChallengeForm.cs",
               "RelativeDocumentMoniker": "LastChallengeForm.cs",
-              "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\LastChallengeForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "RelativeToolTip": "LastChallengeForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\LastChallengeForm.cs [Design]",
+              "RelativeToolTip": "LastChallengeForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T16:27:29.685Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "LastChallengeForm.cs",
               "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\Dz 2 novella\\LastChallengeForm.cs",
               "RelativeDocumentMoniker": "LastChallengeForm.cs",

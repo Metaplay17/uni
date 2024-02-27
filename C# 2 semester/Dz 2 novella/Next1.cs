@@ -18,7 +18,6 @@ namespace Dz_2_novella
         {
             InitializeComponent();
             this.endForm = endForm;
-            this.finalForm = new FinalChoiceForm(endForm);
         }
 
         private void kickButton2_Click(object sender, EventArgs e)
@@ -29,8 +28,9 @@ namespace Dz_2_novella
 
         private void ignoreButton_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.finalForm = new FinalChoiceForm(endForm);
             finalForm.Show();
+            this.Close();
         }
     }
 }

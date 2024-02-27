@@ -8,7 +8,6 @@ namespace Dz_2_novella
         {
             InitializeComponent();
             this.endForm = new EndForm(this);
-            this.nextWin = new Next1(endForm);
         }
 
         private void KickButton1_Click(object sender, EventArgs e)
@@ -20,6 +19,7 @@ namespace Dz_2_novella
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
+            this.nextWin = new Next1(endForm);
             nextWin.Show();
         }
     }
