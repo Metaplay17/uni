@@ -11,14 +11,16 @@ namespace Roaches
 {
     internal class Character
     {
-        int x;
-        int y;
-        int dx;
-        Bitmap image;
-        Bitmap gif;
+        private int x;
+        public int y { get; set; }
+        private int dx;
+        public Bitmap image { get; set; }
+        public Bitmap gif { get; set; }
+        private Random random;
 
-        public Character(Bitmap image, Bitmap gif, int y)
+        public Character(Bitmap image, Bitmap gif, int y, Random random)
         {
+            this.random = random;
             this.x = 40;
             this.y = y;
             this.dx = 0;
@@ -28,7 +30,7 @@ namespace Roaches
 
         public void Move()
         {
-            this.dx = RandomGenerator.GetRandomNumber(0, 10);
+            this.dx = random.Next(0, 4);
             this.x += dx;
         }
 
@@ -42,19 +44,20 @@ namespace Roaches
             graph.DrawImage(image, this.x, this.y, 60, 60);
         }
 
-        public int GetX()
-        {
-            return this.x;
-        }
-
         public void MoveToStart()
         {
             this.x = 40;
         }
-
-        public Bitmap GetGif()
+        public int X
         {
-            return this.gif;
+            get
+            {
+                return this.x;
+            }
+            private set
+            {
+                this.x = value;
+            }
         }
     }
 }
