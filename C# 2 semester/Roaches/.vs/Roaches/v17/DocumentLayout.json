@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "D:\\Codes\\uni\\C# 2 semester\\Roaches\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D5944C4-A52F-4081-9CDC-0868663E28E8}|Roaches.csproj|D:\\Codes\\uni\\C# 2 semester\\Roaches\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D5944C4-A52F-4081-9CDC-0868663E28E8}|Roaches.csproj|d:\\codes\\uni\\c# 2 semester\\roaches\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D5944C4-A52F-4081-9CDC-0868663E28E8}|Roaches.csproj|solutionrelative:character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D5944C4-A52F-4081-9CDC-0868663E28E8}|Roaches.csproj|d:\\codes\\uni\\c# 2 semester\\roaches\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D5944C4-A52F-4081-9CDC-0868663E28E8}|Roaches.csproj|D:\\Codes\\uni\\C# 2 semester\\Roaches\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D5944C4-A52F-4081-9CDC-0868663E28E8}|Roaches.csproj|solutionrelative:mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D5944C4-A52F-4081-9CDC-0868663E28E8}|Roaches.csproj|d:\\codes\\uni\\c# 2 semester\\roaches\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5D5944C4-A52F-4081-9CDC-0868663E28E8}|Roaches.csproj|D:\\Codes\\uni\\C# 2 semester\\Roaches\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5D5944C4-A52F-4081-9CDC-0868663E28E8}|Roaches.csproj|solutionrelative:mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -33,8 +33,7 @@
               "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\Roaches\\MainWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "MainWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T13:46:26.28Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2024-03-01T13:46:26.28Z"
             },
             {
               "$type": "Document",
@@ -46,8 +45,7 @@
               "RelativeToolTip": "MainWindow.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAAACEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T05:12:15.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-01T05:12:15.781Z"
             },
             {
               "$type": "Document",
@@ -57,7 +55,7 @@
               "RelativeDocumentMoniker": "Character.cs",
               "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\Roaches\\Character.cs",
               "RelativeToolTip": "Character.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAAADIAAAAUAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAADIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-01T04:49:15.474Z",
               "EditorCaption": ""
