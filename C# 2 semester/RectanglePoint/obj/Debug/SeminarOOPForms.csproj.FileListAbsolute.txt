@@ -8,3 +8,13 @@ D:\Codes\SeminarOOPForms\obj\Debug\SeminarOOPForms.csproj.GenerateResource.cache
 D:\Codes\SeminarOOPForms\obj\Debug\SeminarOOPForms.csproj.CoreCompileInputs.cache
 D:\Codes\SeminarOOPForms\obj\Debug\SeminarOOPForms.exe
 D:\Codes\SeminarOOPForms\obj\Debug\SeminarOOPForms.pdb
+D:\Codes\uni\C# 2 semester\RectanglePoint\bin\Debug\SeminarOOPForms.exe.config
+D:\Codes\uni\C# 2 semester\RectanglePoint\bin\Debug\SeminarOOPForms.exe
+D:\Codes\uni\C# 2 semester\RectanglePoint\bin\Debug\SeminarOOPForms.pdb
+D:\Codes\uni\C# 2 semester\RectanglePoint\obj\Debug\SeminarOOPForms.csproj.AssemblyReference.cache
+D:\Codes\uni\C# 2 semester\RectanglePoint\obj\Debug\SeminarOOPForms.Form1.resources
+D:\Codes\uni\C# 2 semester\RectanglePoint\obj\Debug\SeminarOOPForms.Properties.Resources.resources
+D:\Codes\uni\C# 2 semester\RectanglePoint\obj\Debug\SeminarOOPForms.csproj.GenerateResource.cache
+D:\Codes\uni\C# 2 semester\RectanglePoint\obj\Debug\SeminarOOPForms.csproj.CoreCompileInputs.cache
+D:\Codes\uni\C# 2 semester\RectanglePoint\obj\Debug\SeminarOOPForms.exe
+D:\Codes\uni\C# 2 semester\RectanglePoint\obj\Debug\SeminarOOPForms.pdb

@@ -20,16 +20,29 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             int n1, n2, m1, m2;
+            Rational rat1, rat2;
             if (int.TryParse(n1Box.Text, out n1) && int.TryParse(n2Box.Text, out n2) && int.TryParse(m1Box.Text, out m1) && int.TryParse(m2Box.Text, out m2) && comboBox1.SelectedIndex != -1)
             {
                 string action = comboBox1.SelectedItem.ToString();
-                Rational rat1 = new Rational(m1, n1);
-                Rational rat2 = new Rational(m2, n2);
+                try
+                {
+                    rat1 = new Rational(m1, n1);
+                    rat2 = new Rational(m2, n2);
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("You cannot divide by zero");
+                    return;
+                }
                 switch (action)
                 {
-                    case "+": ResultLabel.Text = $"{rat1.Plus(rat2).M}/{rat1.Plus(rat2).N}";
+                    case "+": ResultLabel.Text = $"{Rational.Plus(rat1, rat2).M}/{Rational.Plus(rat1, rat2).N}";
                         break;
-                    case "-": ResultLabel.Text = "null";
+                    case "-": ResultLabel.Text = $"{Rational.Minus(rat1, rat2).M}/{Rational.Minus(rat1, rat2).N}";
+                        break;
+                    case "*": ResultLabel.Text = $"{Rational.Multiply(rat1, rat2).M}/{Rational.Multiply(rat1, rat2).N}";
+                        break;
+                    case "/": ResultLabel.Text = $"{Rational.Divide(rat1, rat2).M}/{Rational.Divide(rat1, rat2).N}";
                         break;
                     default: ResultLabel.Text = "null";
                         break;

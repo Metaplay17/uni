@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Codes\\CompPrac\\WindowsFormsApp1\\",
+  "WorkspaceRootPath": "D:\\Codes\\uni\\C# 2 semester\\Calculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F3B3B3E-5240-4942-93C0-6E8CB333A35F}|WindowsFormsApp1.csproj|d:\\codes\\compprac\\windowsformsapp1\\rational.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F3B3B3E-5240-4942-93C0-6E8CB333A35F}|WindowsFormsApp1.csproj|solutionrelative:rational.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F3B3B3E-5240-4942-93C0-6E8CB333A35F}|WindowsFormsApp1.csproj|D:\\Codes\\uni\\C# 2 semester\\Calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F3B3B3E-5240-4942-93C0-6E8CB333A35F}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F3B3B3E-5240-4942-93C0-6E8CB333A35F}|WindowsFormsApp1.csproj|d:\\codes\\compprac\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0F3B3B3E-5240-4942-93C0-6E8CB333A35F}|WindowsFormsApp1.csproj|D:\\Codes\\uni\\C# 2 semester\\Calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0F3B3B3E-5240-4942-93C0-6E8CB333A35F}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F3B3B3E-5240-4942-93C0-6E8CB333A35F}|WindowsFormsApp1.csproj|d:\\codes\\compprac\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F3B3B3E-5240-4942-93C0-6E8CB333A35F}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F3B3B3E-5240-4942-93C0-6E8CB333A35F}|WindowsFormsApp1.csproj|d:\\codes\\uni\\c# 2 semester\\calculator\\rational.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F3B3B3E-5240-4942-93C0-6E8CB333A35F}|WindowsFormsApp1.csproj|solutionrelative:rational.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,27 +25,31 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\Codes\\CompPrac\\WindowsFormsApp1\\Form1.cs",
+              "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\Calculator\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\Codes\\CompPrac\\WindowsFormsApp1\\Form1.cs",
+              "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\Calculator\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAABoAAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-06T13:41:04.805Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Rational.cs",
-              "DocumentMoniker": "D:\\Codes\\CompPrac\\WindowsFormsApp1\\Rational.cs",
+              "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\Calculator\\Rational.cs",
               "RelativeDocumentMoniker": "Rational.cs",
-              "ToolTip": "D:\\Codes\\CompPrac\\WindowsFormsApp1\\Rational.cs",
+              "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\Calculator\\Rational.cs",
               "RelativeToolTip": "Rational.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADUAAAA1AAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAcwFsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-06T13:16:39.942Z",
               "EditorCaption": ""
@@ -54,9 +58,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\Codes\\CompPrac\\WindowsFormsApp1\\Form1.cs",
+              "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\Calculator\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\Codes\\CompPrac\\WindowsFormsApp1\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\Calculator\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-27T10:13:08.083Z",

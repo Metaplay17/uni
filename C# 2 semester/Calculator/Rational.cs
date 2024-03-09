@@ -38,21 +38,64 @@ namespace WindowsFormsApp1
                 n = value;
             }
         }
-        public Rational Plus(Rational r2)
+        public static Rational Plus(Rational rat1, Rational rat2)
         {
-            int m1 = this.m;
-            int n1 = this.n;
-            int m2 = r2.m;
-            int n2 = r2.n;
-            int resultN = FindNOK(n1, n2);
-            int resultM = m1 * resultN / n1 + m2 * resultN / n2;
-            int divider = FindNOD(resultN, resultM);
-            resultN /= divider;
-            resultM /= divider;
+            int m1 = rat1.M;
+            int n1 = rat1.N;
+            int m2 = rat2.M;
+            int n2 = rat2.N;
+            int resultN = n1 * n2;
+            int resultM = m1 * n2 + m2 * n1;
+            int nod = FindNOD(resultN, resultM);
+            resultN /= nod;
+            resultM /= nod;
+            return new Rational(resultM, resultN);
+        }
+        public static Rational Minus(Rational rat1, Rational rat2)
+        {
+            int m1 = rat1.M;
+            int n1 = rat1.N;
+            int m2 = rat2.M;
+            int n2 = rat2.N;
+            int resultN = n1 * n2;
+            int resultM = m1 * n2 - m2 * n1;
+            int nod = FindNOD(resultN, resultM);
+            resultN /= nod;
+            resultM /= nod;
+            return new Rational(resultM, resultN);
+        }
+        public static Rational Multiply(Rational rat1, Rational rat2)
+        {
+            int m1 = rat1.M;
+            int n1 = rat1.N;
+            int m2 = rat2.M;
+            int n2 = rat2.N;
+            int resultN = n1 * n2;
+            int resultM = m1 * m2;
+            int nod = FindNOD(resultN, resultM);
+            resultN /= nod;
+            resultM /= nod;
+            return new Rational(resultM, resultN);
+        }
+        public static Rational Divide(Rational rat1, Rational rat2)
+        {
+            int m1 = rat1.M;
+            int n1 = rat1.N;
+            int m2 = rat2.N;
+            int n2 = rat2.M;
+            int resultN = n1 * n2;
+            int resultM = m1 * m2;
+            int nod = FindNOD(resultN, resultM);
+            resultN /= nod;
+            resultM /= nod;
             return new Rational(resultM, resultN);
         }
         public static int FindNOD(int num1, int num2)
         {
+            if (num1 == 0) return num2;
+            if (num2 == 0) return num1;
+            num1 = Math.Abs(num1);
+            num2 = Math.Abs(num2);
             while (num1 != num2)
             {
                 if (num2 > num1)

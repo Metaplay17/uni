@@ -8,3 +8,13 @@ D:\Codes\CompPrac\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateRes
 D:\Codes\CompPrac\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 D:\Codes\CompPrac\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 D:\Codes\CompPrac\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\Codes\uni\C# 2 semester\Calculator\bin\Debug\WindowsFormsApp1.exe.config
+D:\Codes\uni\C# 2 semester\Calculator\bin\Debug\WindowsFormsApp1.exe
+D:\Codes\uni\C# 2 semester\Calculator\bin\Debug\WindowsFormsApp1.pdb
+D:\Codes\uni\C# 2 semester\Calculator\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\Codes\uni\C# 2 semester\Calculator\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\Codes\uni\C# 2 semester\Calculator\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Codes\uni\C# 2 semester\Calculator\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\Codes\uni\C# 2 semester\Calculator\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\Codes\uni\C# 2 semester\Calculator\obj\Debug\WindowsFormsApp1.exe
+D:\Codes\uni\C# 2 semester\Calculator\obj\Debug\WindowsFormsApp1.pdb

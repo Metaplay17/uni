@@ -14,45 +14,58 @@ namespace SeminarOOPForms
     {
         int old_x, old_y;
         Graphics panelGraph;
+        List<Point> points;
+        List<Rectangle> rectangles;
         public Form1()
         {
             InitializeComponent();
-            panelGraph = panel1.CreateGraphics();
+            rectangleButton.Checked = true;
+            points = new List<Point>();
+            rectangles = new List<Rectangle>();
         }
 
-        private void RectangleButton_Click(object sender, EventArgs e)
+        private void Form1_MouseUp(object sender, MouseEventArgs e)
         {
-            //Graphics graph = this.CreateGraphics();
-            //graph.DrawRectangle(new Pen(Color.Red), 50, 50, 200, 100);
-            //graph.FillRectangle(new SolidBrush(Color.Blue), 51, 51, 199, 99);
-            //Pen mainPen = new Pen(Color.Red, 10);
-            //panelGraph.DrawRectangle(new Pen(Color.Red), 50, 50, 200, 100);
-            //panelGraph.FillRectangle(new SolidBrush(Color.Blue), 51, 51, 199, 99);
-            Rectangle rec1 = new Rectangle(50, 50, 100, 100);
-            Rectangle rec2 = new Rectangle(100, 100, 50, 50);
-            rec2.Draw(panelGraph, Color.Red);
-            rec1.Draw(panelGraph, Color.Black);
-            labelStatus.Text = rec1.CheckStatus(rec2).ToString();
-
+            if (rectangleButton.Checked)
+            {
+                int new_x = e.X;
+                int new_y = e.Y;
+                int highX = Math.Min(old_x, new_x);
+                int highY = Math.Min(old_y, new_y);
+                int lowX = Math.Max(old_x, new_x);
+                int lowY = Math.Max(old_y, new_y);
+                Rectangle rec3 = new Rectangle(highX, highY, lowY - highY, lowX - highX);
+                rectangles.Add(rec3);
+                Refresh();
+            }
         }
 
-        private void panel1_MouseUp(object sender, MouseEventArgs e)
+        private void Form1_Paint(object sender, PaintEventArgs e)
         {
-            int new_x = e.X;
-            int new_y = e.Y;
-            int highX = Math.Min(old_x, new_x);
-            int highY = Math.Min(old_y, new_y);
-            int lowX = Math.Max(old_x, new_x);
-            int lowY = Math.Max(old_y, new_y);
-            Rectangle rec3 = new Rectangle(highX, highY, lowY - highY, lowX - highX);
-            rec3.Draw(panelGraph, Color.Red);
+            foreach (Rectangle rectangle in rectangles)
+            {
+                rectangle.Draw(e.Graphics, Color.Purple);
+            }
+            foreach (Point point in points)
+            {
+                point.Draw(e.Graphics, Color.Purple);
+            }
         }
 
-        private void panel1_MouseDown(object sender, MouseEventArgs e)
+        private void Form1_MouseDown(object sender, MouseEventArgs e)
         {
-            old_x = e.X;
-            old_y = e.Y;
-
+            if (rectangleButton.Checked)
+            {
+                old_x = e.X;
+                old_y = e.Y;
+            }
+            else
+            {
+                Point point = new Point(e.X, e.Y);
+                points.Add(point);
+                Refresh();
+            }
         }
+        
     }
 }

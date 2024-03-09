@@ -28,77 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.RectangleButton = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.labelStatus = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
+            this.rectangleButton = new System.Windows.Forms.RadioButton();
+            this.pointButton = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
-            // RectangleButton
+            // rectangleButton
             // 
-            this.RectangleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.RectangleButton.Location = new System.Drawing.Point(12, 376);
-            this.RectangleButton.Name = "RectangleButton";
-            this.RectangleButton.Size = new System.Drawing.Size(122, 62);
-            this.RectangleButton.TabIndex = 0;
-            this.RectangleButton.Text = "Rectangle";
-            this.RectangleButton.UseVisualStyleBackColor = true;
-            this.RectangleButton.Click += new System.EventHandler(this.RectangleButton_Click);
+            this.rectangleButton.AutoSize = true;
+            this.rectangleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.rectangleButton.Location = new System.Drawing.Point(12, 326);
+            this.rectangleButton.Name = "rectangleButton";
+            this.rectangleButton.Size = new System.Drawing.Size(113, 28);
+            this.rectangleButton.TabIndex = 3;
+            this.rectangleButton.TabStop = true;
+            this.rectangleButton.Text = "Rectangle";
+            this.rectangleButton.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // pointButton
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button1.Location = new System.Drawing.Point(654, 376);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(134, 62);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Point";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.panel1.Controls.Add(this.labelStatus);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(776, 358);
-            this.panel1.TabIndex = 2;
-            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
-            this.panel1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseUp);
-            // 
-            // labelStatus
-            // 
-            this.labelStatus.AutoSize = true;
-            this.labelStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.labelStatus.Location = new System.Drawing.Point(345, 22);
-            this.labelStatus.Name = "labelStatus";
-            this.labelStatus.Size = new System.Drawing.Size(79, 29);
-            this.labelStatus.TabIndex = 0;
-            this.labelStatus.Text = "Status";
+            this.pointButton.AutoSize = true;
+            this.pointButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.pointButton.Location = new System.Drawing.Point(521, 326);
+            this.pointButton.Name = "pointButton";
+            this.pointButton.Size = new System.Drawing.Size(70, 28);
+            this.pointButton.TabIndex = 4;
+            this.pointButton.TabStop = true;
+            this.pointButton.Text = "Point";
+            this.pointButton.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.RectangleButton);
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.pointButton);
+            this.Controls.Add(this.rectangleButton);
+            this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button RectangleButton;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label labelStatus;
+        private System.Windows.Forms.RadioButton rectangleButton;
+        private System.Windows.Forms.RadioButton pointButton;
     }
 }
 
