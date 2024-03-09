@@ -1,0 +1,10 @@
+D:\Codes\SeminarOOPForms\bin\Debug\SeminarOOPForms.exe.config
+D:\Codes\SeminarOOPForms\bin\Debug\SeminarOOPForms.exe
+D:\Codes\SeminarOOPForms\bin\Debug\SeminarOOPForms.pdb
+D:\Codes\SeminarOOPForms\obj\Debug\SeminarOOPForms.csproj.AssemblyReference.cache
+D:\Codes\SeminarOOPForms\obj\Debug\SeminarOOPForms.Form1.resources
+D:\Codes\SeminarOOPForms\obj\Debug\SeminarOOPForms.Properties.Resources.resources
+D:\Codes\SeminarOOPForms\obj\Debug\SeminarOOPForms.csproj.GenerateResource.cache
+D:\Codes\SeminarOOPForms\obj\Debug\SeminarOOPForms.csproj.CoreCompileInputs.cache
+D:\Codes\SeminarOOPForms\obj\Debug\SeminarOOPForms.exe
+D:\Codes\SeminarOOPForms\obj\Debug\SeminarOOPForms.pdb

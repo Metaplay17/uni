@@ -1,0 +1,10 @@
+D:\Codes\uni\C# 2 semester\Roaches\bin\Debug\Roaches.exe.config
+D:\Codes\uni\C# 2 semester\Roaches\bin\Debug\Roaches.exe
+D:\Codes\uni\C# 2 semester\Roaches\bin\Debug\Roaches.pdb
+D:\Codes\uni\C# 2 semester\Roaches\obj\Debug\Roaches.csproj.AssemblyReference.cache
+D:\Codes\uni\C# 2 semester\Roaches\obj\Debug\Roaches.MainForm.resources
+D:\Codes\uni\C# 2 semester\Roaches\obj\Debug\Roaches.Properties.Resources.resources
+D:\Codes\uni\C# 2 semester\Roaches\obj\Debug\Roaches.csproj.GenerateResource.cache
+D:\Codes\uni\C# 2 semester\Roaches\obj\Debug\Roaches.csproj.CoreCompileInputs.cache
+D:\Codes\uni\C# 2 semester\Roaches\obj\Debug\Roaches.exe
+D:\Codes\uni\C# 2 semester\Roaches\obj\Debug\Roaches.pdb
