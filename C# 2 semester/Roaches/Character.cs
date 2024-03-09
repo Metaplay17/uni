@@ -12,10 +12,10 @@ namespace Roaches
     internal class Character
     {
         private int x;
-        public int y { get; set; }
+        private int y;
         private int dx;
-        public Bitmap image { get; set; }
-        public Bitmap gif { get; set; }
+        private Bitmap image;
+        private Bitmap gif;
         private Random random;
 
         public Character(Bitmap image, Bitmap gif, int y, Random random)
@@ -23,41 +23,29 @@ namespace Roaches
             this.random = random;
             this.x = 40;
             this.y = y;
-            this.dx = 0;
             this.image = image;
             this.gif = gif;
         }
 
-        public void Move()
-        {
-            this.dx = random.Next(0, 4);
-            this.x += dx;
-        }
+        public void Move() => this.x += random.Next(0, 4);
 
-        public bool IsFinished()
-        {
-            return this.x >= 710;
-        }
+        public bool IsFinished() => this.x >= 710;
 
-        public void Draw(Graphics graph)
-        {
-            graph.DrawImage(image, this.x, this.y, 60, 60);
-        }
+        public void Draw(Graphics graph) => graph.DrawImage(image, this.x, this.y, 60, 60);
 
-        public void MoveToStart()
-        {
-            this.x = 40;
-        }
+        public void MoveToStart() => this.x = 40;
         public int X
         {
-            get
-            {
-                return this.x;
-            }
-            private set
-            {
-                this.x = value;
-            }
+            get { return this.x; }
+            private set { this.x = value; }
+        }
+        public Bitmap Gif
+        {
+            get { return this.gif; }
+        }
+        public Bitmap Image
+        {
+            get { return this.image; }
         }
     }
 }

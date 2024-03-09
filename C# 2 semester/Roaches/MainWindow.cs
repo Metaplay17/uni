@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,34 +15,32 @@ namespace Roaches
     public partial class MainForm : Form
     {
         Random random;
-        Character[] characters;
         Label[] placeLabels;
-        int[] positions;
         short place;
-        int maxX;
-        byte leadInd;
         Bitmap backgroundGif;
+        Game game;
         public MainForm()
         {
             InitializeComponent();
 
             random = new Random();
-
-            positions = new int[] { 56, 147, 231, 321 };
-            //positions = positions.OrderBy(x => RandomGenerator.GetRandomNumber(0, 100)).ToArray();
-            characters = new Character[] { new Character(Properties.Resources.furina, Properties.Resources.FurinaGif, positions[0], random), new Character(Properties.Resources.zhongli, Properties.Resources.zhongliGif, positions[1], random), new Character(Properties.Resources.raiden, Properties.Resources.RaidenShogunGif, positions[2], random), new Character(Properties.Resources.keqing, Properties.Resources.KeqingGif, positions[3], random) };
             placeLabels = new Label[] { placeLabel1, placeLabel2, placeLabel3, placeLabel4 };
-
-            place = 1;
-            maxX = 0;
-            leadInd = 0;
+            timer1.Tick += timer1_Tick;
+            game = new Game(740, timer1);
+        }
+        private void HideLabels()
+        {
+            foreach (Label label in placeLabels)
+            {
+                label.Visible = false;
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            button1.Enabled = false;
+            startButton.Enabled = false;
             againButton.Enabled = true;
-            timer1.Start();
+            game.Start();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -52,46 +51,25 @@ namespace Roaches
         private void MainForm_Paint(object sender, PaintEventArgs e)
         {
             e.Graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-            if (timer1.Enabled)
+            game.Draw(e.Graphics);
+            if (game.GameActive)
             {
-                for (short i = 0; i < characters.Length; i++)
+                game.Move();
+                byte[] result = game.Results();
+                for (byte i = 0; i < result.Length; i++)
                 {
-                    if (!characters[i].IsFinished())
+                    if (result[i] == 1)
                     {
-                        characters[i].Move();
-                        if (characters[i].x >= maxX)
-                        {
-                            maxX = characters[i].x;
-                            leadInd = (byte)(i + 1);
-                        }
+                        backgroundGif = game.GetGif(i);
                     }
-                    if (characters[i].IsFinished() && placeLabels[i].Enabled)
-                    {
-                        placeLabels[i].Text = place.ToString();
-                        if (place == 1)
-                        {
-                            backgroundGif = characters[i].gif;
-                        }
+                    if (result[i] != 0) {
+                        placeLabels[i].Text = result[i].ToString();
                         placeLabels[i].Visible = true;
-                        placeLabels[i].Enabled = false;
-                        place++;
                     }
-                    characters[i].Draw(e.Graphics);
                 }
-                leadLabel.Text = leadInd.ToString();
-                if (place == 5)
+                if (game.CheckEnd())
                 {
-                    leadLabel.Visible = false;
-                    label1.Visible = false;
-                    timer1.Stop();
-                }
-            }
-            else
-            {
-                for (short i = 0; i < characters.Length; i++)
-                {
-                    characters[i].MoveToStart();
-                    characters[i].Draw(e.Graphics);
+                    game.Stop();
                 }
             }
         }
@@ -99,29 +77,15 @@ namespace Roaches
         private void againButton_Click(object sender, EventArgs e)
         {
             Refresh();
-            for (short i = 0; i < characters.Length; i++)
+            if (!game.GameActive)
             {
-                characters[i].MoveToStart();
-                placeLabel1.Visible = false;
-                placeLabel1.Enabled = true;
-
-                placeLabel2.Visible = false;
-                placeLabel2.Enabled = true;
-
-                placeLabel3.Visible = false;
-                placeLabel3.Enabled = true;
-
-                placeLabel4.Visible = false;
-                placeLabel4.Enabled = true;
+                HideLabels();
+                game.MoveToStart();
+                Refresh();
+                startButton.Enabled = true;
+                againButton.Enabled = false;
+                pictureBox1.Image = backgroundGif;
             }
-            leadLabel.Visible = true;
-            leadLabel.Text = "Not started";
-            label1.Visible = true;
-            place = 1;
-            maxX = 0;
-            leadInd = 0;
-            button1.Enabled = true;
-            pictureBox1.Image = backgroundGif;
         }
     }
 }

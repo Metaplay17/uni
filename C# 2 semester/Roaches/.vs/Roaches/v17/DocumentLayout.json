@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Codes\\uni\\C# 2 semester\\Roaches\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D5944C4-A52F-4081-9CDC-0868663E28E8}|Roaches.csproj|d:\\codes\\uni\\c# 2 semester\\roaches\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D5944C4-A52F-4081-9CDC-0868663E28E8}|Roaches.csproj|solutionrelative:character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D5944C4-A52F-4081-9CDC-0868663E28E8}|Roaches.csproj|D:\\Codes\\uni\\C# 2 semester\\Roaches\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D5944C4-A52F-4081-9CDC-0868663E28E8}|Roaches.csproj|d:\\codes\\uni\\c# 2 semester\\roaches\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D5944C4-A52F-4081-9CDC-0868663E28E8}|Roaches.csproj|solutionrelative:mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D5944C4-A52F-4081-9CDC-0868663E28E8}|Roaches.csproj|D:\\Codes\\uni\\C# 2 semester\\Roaches\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5D5944C4-A52F-4081-9CDC-0868663E28E8}|Roaches.csproj|solutionrelative:mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D5944C4-A52F-4081-9CDC-0868663E28E8}|Roaches.csproj|D:\\Codes\\uni\\C# 2 semester\\Roaches\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D5944C4-A52F-4081-9CDC-0868663E28E8}|Roaches.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D5944C4-A52F-4081-9CDC-0868663E28E8}|Roaches.csproj|D:\\Codes\\uni\\C# 2 semester\\Roaches\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D5944C4-A52F-4081-9CDC-0868663E28E8}|Roaches.csproj|solutionrelative:character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +26,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\Roaches\\Game.cs",
+              "RelativeDocumentMoniker": "Game.cs",
+              "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\Roaches\\Game.cs",
+              "RelativeToolTip": "Game.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAEwDkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T07:50:58.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\Roaches\\MainWindow.cs",
               "RelativeDocumentMoniker": "MainWindow.cs",
               "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\Roaches\\MainWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "MainWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T13:46:26.28Z"
+              "WhenOpened": "2024-03-01T13:46:26.28Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.cs",
               "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\Roaches\\MainWindow.cs",
               "RelativeDocumentMoniker": "MainWindow.cs",
               "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\Roaches\\MainWindow.cs",
               "RelativeToolTip": "MainWindow.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAACEAAAAAAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAYwFoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T05:12:15.781Z"
+              "WhenOpened": "2024-03-01T05:12:15.781Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Character.cs",
               "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\Roaches\\Character.cs",
               "RelativeDocumentMoniker": "Character.cs",
               "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\Roaches\\Character.cs",
               "RelativeToolTip": "Character.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAADIAAAAUAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAkwBgAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T04:49:15.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-01T04:49:15.474Z"
             }
           ]
         }
