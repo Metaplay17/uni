@@ -24,10 +24,15 @@ namespace ShapesColors
         }
         public abstract void Draw(Graphics graph);
 
-        public void Move(int newX, int newY)
+        public void Move(int deltaX, int deltaY)
         {
-            this.x = newX;
-            this.y = newY;
+            this.x += deltaX;
+            this.y += deltaY;
+        }
+
+        public bool IsPointContained(int x, int y)
+        {
+            return this.x <= x && (this.x + this.width) >= x && this.y <= y && (this.y + this.height) >= y;
         }
     }
 }

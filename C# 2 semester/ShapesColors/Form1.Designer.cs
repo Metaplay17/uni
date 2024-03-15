@@ -28,68 +28,91 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.RectangleButton = new System.Windows.Forms.RadioButton();
-            this.EllipseButton = new System.Windows.Forms.RadioButton();
+            this.rectangleButton = new System.Windows.Forms.RadioButton();
+            this.ellipseButton = new System.Windows.Forms.RadioButton();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.colorButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.moveButton = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
-            // RectangleButton
+            // rectangleButton
             // 
-            this.RectangleButton.AutoSize = true;
-            this.RectangleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.RectangleButton.Location = new System.Drawing.Point(21, 30);
-            this.RectangleButton.Name = "RectangleButton";
-            this.RectangleButton.Size = new System.Drawing.Size(120, 29);
-            this.RectangleButton.TabIndex = 0;
-            this.RectangleButton.TabStop = true;
-            this.RectangleButton.Text = "Rectangle";
-            this.RectangleButton.UseVisualStyleBackColor = true;
+            this.rectangleButton.AutoSize = true;
+            this.rectangleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.rectangleButton.Location = new System.Drawing.Point(16, 24);
+            this.rectangleButton.Margin = new System.Windows.Forms.Padding(2);
+            this.rectangleButton.Name = "rectangleButton";
+            this.rectangleButton.Size = new System.Drawing.Size(100, 24);
+            this.rectangleButton.TabIndex = 0;
+            this.rectangleButton.TabStop = true;
+            this.rectangleButton.Text = "Rectangle";
+            this.rectangleButton.UseVisualStyleBackColor = true;
             // 
-            // EllipseButton
+            // ellipseButton
             // 
-            this.EllipseButton.AutoSize = true;
-            this.EllipseButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.EllipseButton.Location = new System.Drawing.Point(193, 30);
-            this.EllipseButton.Name = "EllipseButton";
-            this.EllipseButton.Size = new System.Drawing.Size(90, 29);
-            this.EllipseButton.TabIndex = 1;
-            this.EllipseButton.TabStop = true;
-            this.EllipseButton.Text = "Ellipse";
-            this.EllipseButton.UseVisualStyleBackColor = true;
+            this.ellipseButton.AutoSize = true;
+            this.ellipseButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.ellipseButton.Location = new System.Drawing.Point(145, 24);
+            this.ellipseButton.Margin = new System.Windows.Forms.Padding(2);
+            this.ellipseButton.Name = "ellipseButton";
+            this.ellipseButton.Size = new System.Drawing.Size(73, 24);
+            this.ellipseButton.TabIndex = 1;
+            this.ellipseButton.TabStop = true;
+            this.ellipseButton.Text = "Ellipse";
+            this.ellipseButton.UseVisualStyleBackColor = true;
             // 
             // colorButton
             // 
-            this.colorButton.Location = new System.Drawing.Point(193, 91);
+            this.colorButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.colorButton.Location = new System.Drawing.Point(125, 73);
+            this.colorButton.Margin = new System.Windows.Forms.Padding(2);
             this.colorButton.Name = "colorButton";
-            this.colorButton.Size = new System.Drawing.Size(90, 44);
+            this.colorButton.Size = new System.Drawing.Size(68, 36);
             this.colorButton.TabIndex = 2;
-            this.colorButton.UseVisualStyleBackColor = true;
+            this.colorButton.UseVisualStyleBackColor = false;
             this.colorButton.Click += new System.EventHandler(this.ColorButton_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label1.Location = new System.Drawing.Point(27, 98);
+            this.label1.Location = new System.Drawing.Point(20, 80);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 25);
+            this.label1.Size = new System.Drawing.Size(92, 20);
             this.label1.TabIndex = 3;
             this.label1.Text = "Select color";
             // 
+            // moveButton
+            // 
+            this.moveButton.AutoSize = true;
+            this.moveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.moveButton.Location = new System.Drawing.Point(240, 24);
+            this.moveButton.Name = "moveButton";
+            this.moveButton.Size = new System.Drawing.Size(65, 24);
+            this.moveButton.TabIndex = 4;
+            this.moveButton.TabStop = true;
+            this.moveButton.Text = "Move";
+            this.moveButton.UseVisualStyleBackColor = true;
+            // 
             // MainWindow
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.moveButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.colorButton);
-            this.Controls.Add(this.EllipseButton);
-            this.Controls.Add(this.RectangleButton);
+            this.Controls.Add(this.ellipseButton);
+            this.Controls.Add(this.rectangleButton);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MainWindow";
             this.Text = "ShapesColors";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.MainWindow_Paint);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MainWindow_MouseDown);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MainWindow_MouseUp);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -97,11 +120,12 @@
 
         #endregion
 
-        private System.Windows.Forms.RadioButton RectangleButton;
-        private System.Windows.Forms.RadioButton EllipseButton;
+        private System.Windows.Forms.RadioButton rectangleButton;
+        private System.Windows.Forms.RadioButton ellipseButton;
         private System.Windows.Forms.ColorDialog colorDialog1;
         private System.Windows.Forms.Button colorButton;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.RadioButton moveButton;
     }
 }
 

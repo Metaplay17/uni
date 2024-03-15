@@ -13,7 +13,7 @@ namespace ShapesColors
 
         public override void Draw(Graphics graph)
         {
-            graph.DrawRectangle(new Pen(this.color), x, y, width, height);
+            graph.FillRectangle(new SolidBrush(this.color), x, y, width, height);
         }
     }
 }

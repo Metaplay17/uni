@@ -13,7 +13,7 @@ namespace ShapesColors
 
         public override void Draw(Graphics graph)
         {
-            graph.DrawEllipse(new Pen(this.color), x, y, width, height);
+            graph.FillEllipse(new SolidBrush(this.color), x, y, width, height);
         }
     }
 }
