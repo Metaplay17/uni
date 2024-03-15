@@ -36,9 +36,11 @@ namespace WindowsFormsApp1
                 }
                 switch (action)
                 {
-                    case "+": ResultLabel.Text = $"{Rational.Plus(rat1, rat2).M}/{Rational.Plus(rat1, rat2).N}";
+                    case "+": ans = rat1 + rat2;
+                        ResultLabel.Text = $"{ans.M}/{ans.N}";
                         break;
-                    case "-": ResultLabel.Text = $"{Rational.Minus(rat1, rat2).M}/{Rational.Minus(rat1, rat2).N}";
+                    case "-": Rational ans = rat1 - rat2;
+                        ResultLabel.Text = $"{Rational.Minus(rat1, rat2).M}/{Rational.Minus(rat1, rat2).N}";
                         break;
                     case "*": ResultLabel.Text = $"{Rational.Multiply(rat1, rat2).M}/{Rational.Multiply(rat1, rat2).N}";
                         break;

@@ -51,6 +51,11 @@ namespace WindowsFormsApp1
             resultM /= nod;
             return new Rational(resultM, resultN);
         }
+
+        public static Rational operator + (Rational rat1, Rational rat2)
+        {
+            return Plus(rat1, rat2);
+        }
         public static Rational Minus(Rational rat1, Rational rat2)
         {
             int m1 = rat1.M;
@@ -63,6 +68,10 @@ namespace WindowsFormsApp1
             resultN /= nod;
             resultM /= nod;
             return new Rational(resultM, resultN);
+        }
+        public static Rational operator - (Rational rat1, Rational rat2)
+        {
+            return Minus(rat1, rat2);
         }
         public static Rational Multiply(Rational rat1, Rational rat2)
         {
@@ -77,6 +86,10 @@ namespace WindowsFormsApp1
             resultM /= nod;
             return new Rational(resultM, resultN);
         }
+        public static Rational operator * (Rational rat1, Rational rat2)
+        {
+            return Multiply(rat1, rat2);
+        }
         public static Rational Divide(Rational rat1, Rational rat2)
         {
             int m1 = rat1.M;
@@ -89,6 +102,10 @@ namespace WindowsFormsApp1
             resultN /= nod;
             resultM /= nod;
             return new Rational(resultM, resultN);
+        }
+        public static Rational operator / (Rational rat1, Rational rat2)
+        {
+            return Divide(rat1, rat2);
         }
         public static int FindNOD(int num1, int num2)
         {

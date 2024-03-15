@@ -23,8 +23,8 @@ namespace SeminarOOPForms
         }
         public void Draw(Graphics graph, Color color)
         {
-            graph.DrawEllipse(new Pen(color), this.x, this.y, 10, 10);
-            graph.FillEllipse(new SolidBrush(color), this.x, this.y, 10, 10);
+            graph.FillEllipse(new SolidBrush(color), this.x - 5, this.y - 5, 10, 10);
+            graph.DrawEllipse(new Pen(Color.Black), this.x - 5, this.y - 5, 10, 10);
         }
     }
 }

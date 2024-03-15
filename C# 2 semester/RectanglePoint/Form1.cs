@@ -13,7 +13,6 @@ namespace SeminarOOPForms
     public partial class Form1 : Form
     {
         int old_x, old_y;
-        Graphics panelGraph;
         List<Point> points;
         List<Rectangle> rectangles;
         public Form1()

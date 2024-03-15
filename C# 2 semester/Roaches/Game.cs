@@ -10,14 +10,14 @@ namespace Roaches
 {
     internal class Game
     {
-        Character[] characters;
-        Random random = new Random();
-        System.Windows.Forms.Timer timer;
-        int finishX;
-        int[] positions;
-        bool gameActive = false;
-        byte place = 1;
-        byte[] result;
+        private Character[] characters;
+        private Random random = new Random();
+        private System.Windows.Forms.Timer timer;
+        private int finishX;
+        private int[] positions;
+        private bool gameActive = false;
+        private byte place = 1;
+        private byte[] result;
         public Game(int finish, System.Windows.Forms.Timer timer)
         {
             this.timer = timer;
@@ -62,7 +62,7 @@ namespace Roaches
         {
             foreach (Character character in characters)
             {
-                if (!character.IsFinished())
+                if (character.X < finishX)
                 {
                     character.Move();
                 }
@@ -81,7 +81,7 @@ namespace Roaches
         {
             for (sbyte i = 0; i < characters.Length; i++)
             {
-                if (characters[i].IsFinished() && result[i] == 0)
+                if (characters[i].X >= finishX && result[i] == 0)
                 {
                     result[i] = place;
                     place++;

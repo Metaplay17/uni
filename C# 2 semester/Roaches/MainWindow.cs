@@ -14,19 +14,15 @@ namespace Roaches
 {
     public partial class MainForm : Form
     {
-        Random random;
-        Label[] placeLabels;
-        short place;
-        Bitmap backgroundGif;
-        Game game;
+        private Label[] placeLabels;
+        private Bitmap backgroundGif;
+        private Game game;
         public MainForm()
         {
             InitializeComponent();
-
-            random = new Random();
             placeLabels = new Label[] { placeLabel1, placeLabel2, placeLabel3, placeLabel4 };
             timer1.Tick += timer1_Tick;
-            game = new Game(740, timer1);
+            game = new Game(710, timer1);
         }
         private void HideLabels()
         {
@@ -35,7 +31,6 @@ namespace Roaches
                 label.Visible = false;
             }
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             startButton.Enabled = false;

@@ -13,7 +13,6 @@ namespace Roaches
     {
         private int x;
         private int y;
-        private int dx;
         private Bitmap image;
         private Bitmap gif;
         private Random random;
@@ -29,23 +28,16 @@ namespace Roaches
 
         public void Move() => this.x += random.Next(0, 4);
 
-        public bool IsFinished() => this.x >= 710;
-
         public void Draw(Graphics graph) => graph.DrawImage(image, this.x, this.y, 60, 60);
 
         public void MoveToStart() => this.x = 40;
         public int X
         {
             get { return this.x; }
-            private set { this.x = value; }
         }
         public Bitmap Gif
         {
             get { return this.gif; }
-        }
-        public Bitmap Image
-        {
-            get { return this.image; }
         }
     }
 }

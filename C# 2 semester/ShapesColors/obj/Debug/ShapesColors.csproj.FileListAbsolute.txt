@@ -1,0 +1,10 @@
+D:\Codes\uni\C# 2 semester\ShapesColors\bin\Debug\ShapesColors.exe.config
+D:\Codes\uni\C# 2 semester\ShapesColors\bin\Debug\ShapesColors.exe
+D:\Codes\uni\C# 2 semester\ShapesColors\bin\Debug\ShapesColors.pdb
+D:\Codes\uni\C# 2 semester\ShapesColors\obj\Debug\ShapesColors.csproj.AssemblyReference.cache
+D:\Codes\uni\C# 2 semester\ShapesColors\obj\Debug\ShapesColors.MainWindow.resources
+D:\Codes\uni\C# 2 semester\ShapesColors\obj\Debug\ShapesColors.Properties.Resources.resources
+D:\Codes\uni\C# 2 semester\ShapesColors\obj\Debug\ShapesColors.csproj.GenerateResource.cache
+D:\Codes\uni\C# 2 semester\ShapesColors\obj\Debug\ShapesColors.csproj.CoreCompileInputs.cache
+D:\Codes\uni\C# 2 semester\ShapesColors\obj\Debug\ShapesColors.exe
+D:\Codes\uni\C# 2 semester\ShapesColors\obj\Debug\ShapesColors.pdb

@@ -88,8 +88,8 @@ namespace SeminarOOPForms
 
         public void Draw(Graphics graph, Color color)
         {
+            graph.DrawRectangle(new Pen(Color.Black), this.x, this.y, this.width, this.height);
             graph.FillRectangle(new SolidBrush(color), this.x, this.y, this.width, this.height);
-            graph.DrawRectangle(new Pen(color), this.x, this.y, this.width, this.height);
         }
     }
 }
