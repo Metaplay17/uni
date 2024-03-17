@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace ShapesColors
 {
@@ -22,6 +23,12 @@ namespace ShapesColors
             this.height = height;
             this.color = color;
         }
+        public static bool IsIntersect(Shape shape1, Shape shape2)
+        {
+            bool instersectionX = shape1.X < shape2.X + shape2.Width && shape2.X < shape1.X + shape1.Width;
+            bool instersectionY = shape1.Y < shape2.Y + shape2.Height && shape2.Y < shape1.Y + shape1.Height;
+            return instersectionX && instersectionY;
+        }
         public abstract void Draw(Graphics graph);
 
         public void Move(int deltaX, int deltaY)
@@ -34,5 +41,11 @@ namespace ShapesColors
         {
             return this.x <= x && (this.x + this.width) >= x && this.y <= y && (this.y + this.height) >= y;
         }
+        public int GetHighEdge() => this.y;
+
+        public int X { get { return this.x; } }
+        public int Y { get { return this.y; } }
+        public int Width { get { return this.width; } }
+        public int Height { get { return this.height; } }
     }
 }

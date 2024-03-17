@@ -65,7 +65,7 @@
             // colorButton
             // 
             this.colorButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.colorButton.Location = new System.Drawing.Point(125, 73);
+            this.colorButton.Location = new System.Drawing.Point(425, 19);
             this.colorButton.Margin = new System.Windows.Forms.Padding(2);
             this.colorButton.Name = "colorButton";
             this.colorButton.Size = new System.Drawing.Size(68, 36);
@@ -77,7 +77,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label1.Location = new System.Drawing.Point(20, 80);
+            this.label1.Location = new System.Drawing.Point(329, 26);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(92, 20);
@@ -101,12 +101,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(526, 505);
             this.Controls.Add(this.moveButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.colorButton);
             this.Controls.Add(this.ellipseButton);
             this.Controls.Add(this.rectangleButton);
+            this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MainWindow";
             this.Text = "ShapesColors";

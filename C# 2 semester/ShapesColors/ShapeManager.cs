@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -7,14 +8,26 @@ using System.Threading.Tasks;
 
 namespace ShapesColors
 {
-    internal static class ShapeManager
+    internal class ShapeManager
     {
-        private static List<Shape> shapes = new List<Shape>();
-        private static int selectedInd = -1;
+        private static ShapeManager instance;
+        private List<Shape> shapes = new List<Shape>();
+        private int selectedInd = -1;
 
-        public static void AddShape(Shape shape) {  shapes.Add(shape); }
+        private ShapeManager() { }
 
-        public static void Draw(Graphics graph)
+        public static ShapeManager GetInstance()
+        {
+            if (instance == null)
+            {
+                instance = new ShapeManager();
+            }
+            return instance;
+        }
+
+        public void AddShape(Shape shape) {  shapes.Add(shape); }
+
+        public void Draw(Graphics graph)
         {
             foreach (Shape shape in shapes)
             {
@@ -22,7 +35,7 @@ namespace ShapesColors
             }
         }
 
-        public static int CheckShape(int x, int y)
+        public int CheckShape(int x, int y)
         {
             for (int i = 0; i < shapes.Count; i++)
             {
@@ -33,11 +46,37 @@ namespace ShapesColors
             }
             return -1;
         }
-        public static void SelectShape(int ind) => selectedInd = ind;
-        public static void UnselectShape() => selectedInd = -1;
-        public static bool IsSelectShape() => selectedInd != -1;
+        public bool CheckCollisions(int deltaX, int deltaY)
+        {
+            shapes[selectedInd].Move(deltaX, deltaY);
+            for (int i = 0; i < shapes.Count; i++)
+            {
+                if (i != selectedInd && Shape.IsIntersect(shapes[selectedInd], shapes[i]))
+                {
+                    shapes[selectedInd].Move(-deltaX, -deltaY);
+                    return false;
+                }
+            }
+            shapes[selectedInd].Move(-deltaX, -deltaY);
+            return true;
+        }
+        public bool CheckCollisions(Shape newShape)
+        {
+            for (int i = 0; i < shapes.Count; i++)
+            {
+                if (i != selectedInd && Shape.IsIntersect(newShape, shapes[i]))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+        public bool IsMoveAble(int edge, int deltaY) => shapes[selectedInd].GetHighEdge() + deltaY > edge;
+        public void SelectShape(int ind) => selectedInd = ind;
+        public void UnselectShape() => selectedInd = -1;
+        public bool IsSelectShape() => selectedInd != -1;
 
-        public static void MoveShape(int deltaX, int deltaY)
+        public void MoveShape(int deltaX, int deltaY)
         {
             if (selectedInd == -1)
             {

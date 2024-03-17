@@ -15,11 +15,14 @@ namespace ShapesColors
         private Color selectedColor;
         private int tempX;
         private int tempY;
+        private int edge = 70;
+        private ShapeManager shapeManager;
 
         public MainWindow()
         {
             InitializeComponent();
             selectedColor = colorButton.BackColor;
+            shapeManager = ShapeManager.GetInstance();
         }
 
         private void ColorButton_Click(object sender, EventArgs e)
@@ -31,10 +34,10 @@ namespace ShapesColors
 
         private void MainWindow_MouseDown(object sender, MouseEventArgs e)
         {
-            if (moveButton.Checked && ShapeManager.CheckShape(e.X, e.Y) != -1)
+            if (moveButton.Checked && shapeManager.CheckShape(e.X, e.Y) != -1)
             {
-                int ind = ShapeManager.CheckShape(e.X, e.Y);
-                ShapeManager.SelectShape(ind);
+                int ind = shapeManager.CheckShape(e.X, e.Y);
+                shapeManager.SelectShape(ind);
             }
             tempX = e.X;
             tempY = e.Y;
@@ -42,10 +45,12 @@ namespace ShapesColors
 
         private void MainWindow_MouseUp(object sender, MouseEventArgs e)
         {
-            if (ShapeManager.IsSelectShape())
-            {
-                ShapeManager.MoveShape(e.X - tempX, e.Y - tempY);
-                ShapeManager.UnselectShape();
+            int deltaX = e.X - tempX;
+            int deltaY = e.Y - tempY;
+            if (moveButton.Checked && shapeManager.IsSelectShape() && shapeManager.IsMoveAble(edge, e.Y - tempY) && shapeManager.CheckCollisions(deltaX, deltaY))
+            {   
+                shapeManager.MoveShape(deltaX, deltaY);
+                shapeManager.UnselectShape();
             }
             else if (rectangleButton.Checked)
             {
@@ -53,18 +58,26 @@ namespace ShapesColors
                 int y = Math.Min(e.Y, tempY);
                 int width = Math.Max(e.X, tempX) - x;
                 int height = Math.Max(e.Y, tempY) - y;
-                ShapeManager.AddShape(new Rectangle(x, y, width, height, selectedColor));
+                Rectangle testRect = new Rectangle(x, y, width, height, selectedColor);
+                if (shapeManager.CheckCollisions(testRect))
+                {
+                    shapeManager.AddShape(testRect);
+                }
             }
             else if (ellipseButton.Checked)
             {
-                ShapeManager.AddShape(new Ellipse(tempX, tempY, e.X - tempX, e.Y - tempY, selectedColor));
+                Ellipse testEllipse = new Ellipse(tempX, tempY, deltaX, deltaY, selectedColor);
+                if (shapeManager.CheckCollisions(testEllipse))
+                {
+                    shapeManager.AddShape(testEllipse);
+                }
             }
             Refresh();
         }
 
         private void MainWindow_Paint(object sender, PaintEventArgs e)
         {
-            ShapeManager.Draw(e.Graphics);
+            shapeManager.Draw(e.Graphics);
         }
     }
 }
