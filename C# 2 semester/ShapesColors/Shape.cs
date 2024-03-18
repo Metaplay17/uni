@@ -42,6 +42,7 @@ namespace ShapesColors
             return this.x <= x && (this.x + this.width) >= x && this.y <= y && (this.y + this.height) >= y;
         }
         public int GetHighEdge() => this.y;
+        public Color Color {  set { this.color = value; } }
 
         public int X { get { return this.x; } }
         public int Y { get { return this.y; } }

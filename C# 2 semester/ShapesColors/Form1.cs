@@ -45,6 +45,10 @@ namespace ShapesColors
 
         private void MainWindow_MouseUp(object sender, MouseEventArgs e)
         {
+            int x = Math.Min(e.X, tempX);
+            int y = Math.Min(e.Y, tempY);
+            int width = Math.Max(e.X, tempX) - x;
+            int height = Math.Max(e.Y, tempY) - y;
             int deltaX = e.X - tempX;
             int deltaY = e.Y - tempY;
             if (moveButton.Checked && shapeManager.IsSelectShape() && shapeManager.IsMoveAble(edge, e.Y - tempY) && shapeManager.CheckCollisions(deltaX, deltaY))
@@ -52,21 +56,17 @@ namespace ShapesColors
                 shapeManager.MoveShape(deltaX, deltaY);
                 shapeManager.UnselectShape();
             }
-            else if (rectangleButton.Checked)
+            else if (rectangleButton.Checked && e.Y >= edge)
             {
-                int x = Math.Min(e.X, tempX);
-                int y = Math.Min(e.Y, tempY);
-                int width = Math.Max(e.X, tempX) - x;
-                int height = Math.Max(e.Y, tempY) - y;
                 Rectangle testRect = new Rectangle(x, y, width, height, selectedColor);
                 if (shapeManager.CheckCollisions(testRect))
                 {
                     shapeManager.AddShape(testRect);
                 }
             }
-            else if (ellipseButton.Checked)
+            else if (ellipseButton.Checked && e.Y >= edge)
             {
-                Ellipse testEllipse = new Ellipse(tempX, tempY, deltaX, deltaY, selectedColor);
+                Ellipse testEllipse = new Ellipse(x, y, width, height, selectedColor);
                 if (shapeManager.CheckCollisions(testEllipse))
                 {
                     shapeManager.AddShape(testEllipse);
@@ -78,6 +78,20 @@ namespace ShapesColors
         private void MainWindow_Paint(object sender, PaintEventArgs e)
         {
             shapeManager.Draw(e.Graphics);
+        }
+
+        private void MainWindow_Click(object sender, EventArgs e)
+        {
+            MouseEventArgs me = (MouseEventArgs)e;
+            int x = me.Location.X;
+            int y = me.Location.Y;
+            int ind = shapeManager.PointInShape(x, y);
+            if (ind != -1)
+            {
+                shapeManager.SelectShape(ind);
+                shapeManager.PaintSelectedShape(selectedColor);
+                shapeManager.UnselectShape();
+            }
         }
     }
 }

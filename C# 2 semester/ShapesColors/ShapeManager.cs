@@ -84,5 +84,23 @@ namespace ShapesColors
             }
             shapes[selectedInd].Move(deltaX, deltaY);
         }
+        public int PointInShape(int x, int y)
+        {
+            for (int i = 0; i < shapes.Count; i++)
+            {
+                if (shapes[i].IsPointContained(x, y))
+                {
+                    return i;
+                }
+            }
+            return -1;
+        }
+        public void PaintSelectedShape(Color color)
+        {
+            if (IsSelectShape())
+            {
+                shapes[selectedInd].Color = color;
+            }
+        }
     }
 }
