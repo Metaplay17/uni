@@ -51,7 +51,8 @@ namespace ShapesColors
             int height = Math.Max(e.Y, tempY) - y;
             int deltaX = e.X - tempX;
             int deltaY = e.Y - tempY;
-            if (moveButton.Checked && shapeManager.IsSelectShape() && shapeManager.IsMoveAble(edge, e.Y - tempY) && shapeManager.CheckCollisions(deltaX, deltaY))
+            if (moveButton.Checked && shapeManager.IsSelectShape() && shapeManager.IsMoveAble(edge, e.Y - tempY) 
+                && shapeManager.CheckCollisions(deltaX, deltaY))
             {   
                 shapeManager.MoveShape(deltaX, deltaY);
                 shapeManager.UnselectShape();

@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\Codes\\uni\\C# 2 semester\\RectanglePoint\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41E74C71-B084-4BBF-8437-A54648E2A646}|SeminarOOPForms.csproj|D:\\Codes\\uni\\C# 2 semester\\RectanglePoint\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41E74C71-B084-4BBF-8437-A54648E2A646}|SeminarOOPForms.csproj|d:\\codes\\uni\\c# 2 semester\\rectanglepoint\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41E74C71-B084-4BBF-8437-A54648E2A646}|SeminarOOPForms.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41E74C71-B084-4BBF-8437-A54648E2A646}|SeminarOOPForms.csproj|d:\\codes\\uni\\c# 2 semester\\rectanglepoint\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41E74C71-B084-4BBF-8437-A54648E2A646}|SeminarOOPForms.csproj|D:\\Codes\\uni\\C# 2 semester\\RectanglePoint\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41E74C71-B084-4BBF-8437-A54648E2A646}|SeminarOOPForms.csproj|solutionrelative:point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\RectanglePoint\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAAA4AAAAZAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAA1wA4AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-21T13:27:31.657Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "Rectangle.cs",
               "ViewState": "AQIAAEUAAAAAAAAAAAAAAFoAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T13:27:46.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-21T13:27:46.319Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "Point.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T13:27:41.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-21T13:27:41.16Z"
             },
             {
               "$type": "Document",
@@ -80,8 +78,7 @@
               "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\RectanglePoint\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T13:22:43.243Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2024-02-21T13:22:43.243Z"
             }
           ]
         }
