@@ -15,6 +15,7 @@ namespace ShapesColors
         protected int width;
         protected int height;
         protected Color color;
+        protected PointF[] nodes;
         public Shape(int x, int y, int width, int height, Color color)
         {
             this.x = x;
@@ -31,7 +32,7 @@ namespace ShapesColors
         }
         public abstract void Draw(Graphics graph);
 
-        public void Move(int deltaX, int deltaY)
+        public virtual void Move(int deltaX, int deltaY)
         {
             this.x += deltaX;
             this.y += deltaY;

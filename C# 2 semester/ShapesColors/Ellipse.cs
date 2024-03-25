@@ -9,7 +9,10 @@ namespace ShapesColors
 {
     internal class Ellipse : Shape
     {
-        public Ellipse(int x, int  y, int width, int height, Color color) : base(x, y, width, height, color) { }
+        public Ellipse(int x, int  y, int width, int height, Color color) : base(x, y, width, height, color)
+        {
+            this.nodes = new PointF[] { new PointF(x, y + height / 2), new PointF(x + width / 2, y + height), new PointF(x + width, y + height / 2), new PointF(x + width / 2, y) };
+        }
 
         public override void Draw(Graphics graph)
         {

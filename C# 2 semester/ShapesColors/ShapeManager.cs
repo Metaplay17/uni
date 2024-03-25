@@ -71,7 +71,7 @@ namespace ShapesColors
             }
             return true;
         }
-        public bool IsMoveAble(int edge, int deltaY) => shapes[selectedInd].GetHighEdge() + deltaY > edge;
+        public bool IsMoveAble(int edge, int deltaY) => shapes[selectedInd].Y + deltaY > edge;
         public void SelectShape(int ind) => selectedInd = ind;
         public void UnselectShape() => selectedInd = -1;
         public bool IsSelectShape() => selectedInd != -1;

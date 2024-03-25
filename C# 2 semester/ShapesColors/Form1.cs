@@ -25,6 +25,11 @@ namespace ShapesColors
             shapeManager = ShapeManager.GetInstance();
         }
 
+        private bool IsDrawingAble(MouseEventArgs e)
+        {
+            return e.X >= 12 && e.X <= 910 && e.Y >= 88 && e.Y <= 610;
+        }
+
         private void ColorButton_Click(object sender, EventArgs e)
         {
             colorDialog1.ShowDialog();
@@ -34,6 +39,10 @@ namespace ShapesColors
 
         private void MainWindow_MouseDown(object sender, MouseEventArgs e)
         {
+            if (!IsDrawingAble(e))
+            {
+                return;
+            }
             if (moveButton.Checked && shapeManager.CheckShape(e.X, e.Y) != -1)
             {
                 int ind = shapeManager.CheckShape(e.X, e.Y);
@@ -45,15 +54,19 @@ namespace ShapesColors
 
         private void MainWindow_MouseUp(object sender, MouseEventArgs e)
         {
+            if (!IsDrawingAble(e) || tempX == 0 || tempY == 0)
+            {
+                return;
+            }
             int x = Math.Min(e.X, tempX);
             int y = Math.Min(e.Y, tempY);
             int width = Math.Max(e.X, tempX) - x;
             int height = Math.Max(e.Y, tempY) - y;
             int deltaX = e.X - tempX;
             int deltaY = e.Y - tempY;
-            if (moveButton.Checked && shapeManager.IsSelectShape() && shapeManager.IsMoveAble(edge, e.Y - tempY) 
+            if (moveButton.Checked && shapeManager.IsSelectShape() && shapeManager.IsMoveAble(edge, deltaY) 
                 && shapeManager.CheckCollisions(deltaX, deltaY))
-            {   
+            {
                 shapeManager.MoveShape(deltaX, deltaY);
                 shapeManager.UnselectShape();
             }
@@ -73,6 +86,16 @@ namespace ShapesColors
                     shapeManager.AddShape(testEllipse);
                 }
             }
+            else if (triangleButton.Checked)
+            {
+                Triangle testTriangle = new Triangle(x, y, width, height, selectedColor);
+                if (shapeManager.CheckCollisions(testTriangle))
+                {
+                    shapeManager.AddShape(testTriangle);
+                }
+            }
+            tempX = 0;
+            tempY = 0;
             Refresh();
         }
 
@@ -83,15 +106,18 @@ namespace ShapesColors
 
         private void MainWindow_Click(object sender, EventArgs e)
         {
-            MouseEventArgs me = (MouseEventArgs)e;
-            int x = me.Location.X;
-            int y = me.Location.Y;
-            int ind = shapeManager.PointInShape(x, y);
-            if (ind != -1)
+            if (moveButton.Checked)
             {
-                shapeManager.SelectShape(ind);
-                shapeManager.PaintSelectedShape(selectedColor);
-                shapeManager.UnselectShape();
+                MouseEventArgs me = (MouseEventArgs)e;
+                int x = me.Location.X;
+                int y = me.Location.Y;
+                int ind = shapeManager.PointInShape(x, y);
+                if (ind != -1)
+                {
+                    shapeManager.SelectShape(ind);
+                    shapeManager.PaintSelectedShape(selectedColor);
+                    shapeManager.UnselectShape();
+                }
             }
         }
     }

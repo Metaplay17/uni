@@ -107,7 +107,7 @@ namespace WindowsFormsApp1
         {
             return Divide(rat1, rat2);
         }
-        public static int FindNOD(int num1, int num2)
+        private static int FindNOD(int num1, int num2)
         {
             if (num1 == 0) return num2;
             if (num2 == 0) return num1;
@@ -124,10 +124,6 @@ namespace WindowsFormsApp1
                 num1 = num1 - num2;
             }
             return num1;
-        }
-        public static int FindNOK(int num1, int num2)
-        {
-            return num1 * num2 / FindNOD(num1, num2);
         }
     }
 }

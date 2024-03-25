@@ -36,9 +36,10 @@
             // 
             this.rectangleButton.AutoSize = true;
             this.rectangleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.rectangleButton.Location = new System.Drawing.Point(12, 326);
+            this.rectangleButton.Location = new System.Drawing.Point(110, 404);
+            this.rectangleButton.Margin = new System.Windows.Forms.Padding(4);
             this.rectangleButton.Name = "rectangleButton";
-            this.rectangleButton.Size = new System.Drawing.Size(113, 28);
+            this.rectangleButton.Size = new System.Drawing.Size(143, 33);
             this.rectangleButton.TabIndex = 3;
             this.rectangleButton.TabStop = true;
             this.rectangleButton.Text = "Rectangle";
@@ -48,9 +49,10 @@
             // 
             this.pointButton.AutoSize = true;
             this.pointButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.pointButton.Location = new System.Drawing.Point(521, 326);
+            this.pointButton.Location = new System.Drawing.Point(13, 401);
+            this.pointButton.Margin = new System.Windows.Forms.Padding(4);
             this.pointButton.Name = "pointButton";
-            this.pointButton.Size = new System.Drawing.Size(70, 28);
+            this.pointButton.Size = new System.Drawing.Size(89, 33);
             this.pointButton.TabIndex = 4;
             this.pointButton.TabStop = true;
             this.pointButton.Text = "Point";
@@ -58,14 +60,14 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pointButton);
             this.Controls.Add(this.rectangleButton);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
