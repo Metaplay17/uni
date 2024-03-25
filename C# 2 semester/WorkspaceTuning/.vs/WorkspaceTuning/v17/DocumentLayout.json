@@ -1,0 +1,159 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Codes\\uni\\C# 2 semester\\WorkspaceTuning\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D4A829D-BB80-49F9-B621-72ECEA8EDD95}|WorkspaceTuning.csproj|d:\\codes\\uni\\c# 2 semester\\workspacetuning\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D4A829D-BB80-49F9-B621-72ECEA8EDD95}|WorkspaceTuning.csproj|solutionrelative:mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D4A829D-BB80-49F9-B621-72ECEA8EDD95}|WorkspaceTuning.csproj|d:\\codes\\uni\\c# 2 semester\\workspacetuning\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D4A829D-BB80-49F9-B621-72ECEA8EDD95}|WorkspaceTuning.csproj|solutionrelative:mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D4A829D-BB80-49F9-B621-72ECEA8EDD95}|WorkspaceTuning.csproj|d:\\codes\\uni\\c# 2 semester\\workspacetuning\\richkeyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D4A829D-BB80-49F9-B621-72ECEA8EDD95}|WorkspaceTuning.csproj|solutionrelative:richkeyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D4A829D-BB80-49F9-B621-72ECEA8EDD95}|WorkspaceTuning.csproj|d:\\codes\\uni\\c# 2 semester\\workspacetuning\\poorkeyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D4A829D-BB80-49F9-B621-72ECEA8EDD95}|WorkspaceTuning.csproj|solutionrelative:poorkeyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D4A829D-BB80-49F9-B621-72ECEA8EDD95}|WorkspaceTuning.csproj|d:\\codes\\uni\\c# 2 semester\\workspacetuning\\coolmouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D4A829D-BB80-49F9-B621-72ECEA8EDD95}|WorkspaceTuning.csproj|solutionrelative:coolmouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D4A829D-BB80-49F9-B621-72ECEA8EDD95}|WorkspaceTuning.csproj|d:\\codes\\uni\\c# 2 semester\\workspacetuning\\strangemouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D4A829D-BB80-49F9-B621-72ECEA8EDD95}|WorkspaceTuning.csproj|solutionrelative:strangemouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D4A829D-BB80-49F9-B621-72ECEA8EDD95}|WorkspaceTuning.csproj|d:\\codes\\uni\\c# 2 semester\\workspacetuning\\newmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D4A829D-BB80-49F9-B621-72ECEA8EDD95}|WorkspaceTuning.csproj|solutionrelative:newmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D4A829D-BB80-49F9-B621-72ECEA8EDD95}|WorkspaceTuning.csproj|d:\\codes\\uni\\c# 2 semester\\workspacetuning\\oldmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D4A829D-BB80-49F9-B621-72ECEA8EDD95}|WorkspaceTuning.csproj|solutionrelative:oldmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RichKeyboard.cs",
+              "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\WorkspaceTuning\\RichKeyboard.cs",
+              "RelativeDocumentMoniker": "RichKeyboard.cs",
+              "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\WorkspaceTuning\\RichKeyboard.cs",
+              "RelativeToolTip": "RichKeyboard.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T05:43:24.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PoorKeyboard.cs",
+              "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\WorkspaceTuning\\PoorKeyboard.cs",
+              "RelativeDocumentMoniker": "PoorKeyboard.cs",
+              "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\WorkspaceTuning\\PoorKeyboard.cs",
+              "RelativeToolTip": "PoorKeyboard.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T05:42:54.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CoolMouse.cs",
+              "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\WorkspaceTuning\\CoolMouse.cs",
+              "RelativeDocumentMoniker": "CoolMouse.cs",
+              "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\WorkspaceTuning\\CoolMouse.cs",
+              "RelativeToolTip": "CoolMouse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T05:42:24.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StrangeMouse.cs",
+              "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\WorkspaceTuning\\StrangeMouse.cs",
+              "RelativeDocumentMoniker": "StrangeMouse.cs",
+              "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\WorkspaceTuning\\StrangeMouse.cs",
+              "RelativeToolTip": "StrangeMouse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T05:41:52.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NewMonitor.cs",
+              "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\WorkspaceTuning\\NewMonitor.cs",
+              "RelativeDocumentMoniker": "NewMonitor.cs",
+              "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\WorkspaceTuning\\NewMonitor.cs",
+              "RelativeToolTip": "NewMonitor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T05:41:20.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.cs",
+              "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\WorkspaceTuning\\MainWindow.cs",
+              "RelativeDocumentMoniker": "MainWindow.cs",
+              "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\WorkspaceTuning\\MainWindow.cs",
+              "RelativeToolTip": "MainWindow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T05:22:33.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\WorkspaceTuning\\MainWindow.cs",
+              "RelativeDocumentMoniker": "MainWindow.cs",
+              "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\WorkspaceTuning\\MainWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "MainWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T05:47:03.602Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OldMonitor.cs",
+              "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\WorkspaceTuning\\OldMonitor.cs",
+              "RelativeDocumentMoniker": "OldMonitor.cs",
+              "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\WorkspaceTuning\\OldMonitor.cs",
+              "RelativeToolTip": "OldMonitor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T05:40:58.545Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
