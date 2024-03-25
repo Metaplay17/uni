@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WorkspaceTuning")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56055f6a686cb4748f9b65a63cdced2412b34c97")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22464d487db715ef3263f31a372f69c20d42e83e")]
 [assembly: System.Reflection.AssemblyProductAttribute("WorkspaceTuning")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WorkspaceTuning")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -15,7 +15,8 @@ namespace ShapesColors
         private Color selectedColor;
         private int tempX;
         private int tempY;
-        private int edge = 70;
+        private int edgeY = 70;
+        private int edgeX = 15;
         private ShapeManager shapeManager;
 
         public MainWindow()
@@ -64,7 +65,7 @@ namespace ShapesColors
             int height = Math.Max(e.Y, tempY) - y;
             int deltaX = e.X - tempX;
             int deltaY = e.Y - tempY;
-            if (moveButton.Checked && shapeManager.IsSelectShape() && shapeManager.IsMoveAble(edge, deltaY) 
+            if (moveButton.Checked && shapeManager.IsSelectShape() && shapeManager.IsMoveAble(edgeX, edgeY, deltaX, deltaY) 
                 && shapeManager.CheckCollisions(deltaX, deltaY))
             {
                 shapeManager.MoveShape(deltaX, deltaY);
@@ -119,6 +120,7 @@ namespace ShapesColors
                     shapeManager.UnselectShape();
                 }
             }
+            Refresh();
         }
     }
 }

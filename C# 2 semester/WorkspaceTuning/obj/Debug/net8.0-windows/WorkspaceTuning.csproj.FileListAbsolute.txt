@@ -3,7 +3,6 @@ D:\Codes\uni\C# 2 semester\WorkspaceTuning\bin\Debug\net8.0-windows\WorkspaceTun
 D:\Codes\uni\C# 2 semester\WorkspaceTuning\bin\Debug\net8.0-windows\WorkspaceTuning.runtimeconfig.json
 D:\Codes\uni\C# 2 semester\WorkspaceTuning\bin\Debug\net8.0-windows\WorkspaceTuning.dll
 D:\Codes\uni\C# 2 semester\WorkspaceTuning\bin\Debug\net8.0-windows\WorkspaceTuning.pdb
-D:\Codes\uni\C# 2 semester\WorkspaceTuning\obj\Debug\net8.0-windows\WorkspaceTuning.Form1.resources
 D:\Codes\uni\C# 2 semester\WorkspaceTuning\obj\Debug\net8.0-windows\WorkspaceTuning.Properties.Resources.resources
 D:\Codes\uni\C# 2 semester\WorkspaceTuning\obj\Debug\net8.0-windows\WorkspaceTuning.csproj.GenerateResource.cache
 D:\Codes\uni\C# 2 semester\WorkspaceTuning\obj\Debug\net8.0-windows\WorkspaceTuning.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,3 +15,4 @@ D:\Codes\uni\C# 2 semester\WorkspaceTuning\obj\Debug\net8.0-windows\refint\Works
 D:\Codes\uni\C# 2 semester\WorkspaceTuning\obj\Debug\net8.0-windows\WorkspaceTuning.pdb
 D:\Codes\uni\C# 2 semester\WorkspaceTuning\obj\Debug\net8.0-windows\WorkspaceTuning.genruntimeconfig.cache
 D:\Codes\uni\C# 2 semester\WorkspaceTuning\obj\Debug\net8.0-windows\ref\WorkspaceTuning.dll
+D:\Codes\uni\C# 2 semester\WorkspaceTuning\obj\Debug\net8.0-windows\WorkspaceTuning.MainWindow.resources

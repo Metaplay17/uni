@@ -8,10 +8,10 @@ namespace WorkspaceTuning
 {
     internal abstract class Mouse
     {
-        protected int x = 374;
-        protected int y = 12;
-        protected int width = 381;
-        protected int height = 249;
+        protected int x = 430;
+        protected int y = 250;
+        protected int width = 300;
+        protected int height = 150;
         protected Bitmap image;
 
         public Mouse(Bitmap image)

@@ -16,11 +16,14 @@ namespace ShapesColors
             nodes = points;
         }
 
-        public override void Draw(Graphics g)
+        public override void Draw(Graphics graph)
         {
-            g.FillPolygon(new SolidBrush(color), this.points);
+            graph.DrawPolygon(new Pen(color), this.points);
+            if (this.fillColor != Color.Empty)
+            {
+                graph.FillPolygon(new SolidBrush(fillColor), this.points);
+            }
         }
-
         public override void Move(int deltaX, int deltaY)
         {
             base.Move(deltaX, deltaY);

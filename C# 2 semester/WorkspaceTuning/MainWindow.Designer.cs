@@ -110,7 +110,7 @@
             keyboardComboBox.TabIndex = 9;
             keyboardComboBox.SelectedIndexChanged += keyboardComboBox_SelectedIndexChanged;
             // 
-            // Form1
+            // MainWindow
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -123,7 +123,8 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Name = "Form1";
+            DoubleBuffered = true;
+            Name = "MainWindow";
             Text = "Form1";
             Paint += Form1_Paint;
             ResumeLayout(false);

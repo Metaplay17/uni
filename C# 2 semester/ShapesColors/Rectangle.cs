@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace ShapesColors
 {
@@ -16,7 +17,11 @@ namespace ShapesColors
 
         public override void Draw(Graphics graph)
         {
-            graph.FillRectangle(new SolidBrush(this.color), x, y, width, height);
+            graph.DrawRectangle(new Pen(this.color), x, y, width, height);
+            if (this.fillColor != Color.Empty)
+            {
+                graph.FillRectangle(new SolidBrush(this.fillColor), x, y, width, height);
+            }
         }
     }
 }

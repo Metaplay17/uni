@@ -3,22 +3,6 @@
   "WorkspaceRootPath": "D:\\Codes\\uni\\C# 2 semester\\ShapesColors\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBB06EEB-8D08-4C54-BD31-AD447D0AF67D}|ShapesColors.csproj|D:\\Codes\\uni\\C# 2 semester\\ShapesColors\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB06EEB-8D08-4C54-BD31-AD447D0AF67D}|ShapesColors.csproj|solutionrelative:triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB06EEB-8D08-4C54-BD31-AD447D0AF67D}|ShapesColors.csproj|D:\\Codes\\uni\\C# 2 semester\\ShapesColors\\ellipse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB06EEB-8D08-4C54-BD31-AD447D0AF67D}|ShapesColors.csproj|solutionrelative:ellipse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB06EEB-8D08-4C54-BD31-AD447D0AF67D}|ShapesColors.csproj|D:\\Codes\\uni\\C# 2 semester\\ShapesColors\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB06EEB-8D08-4C54-BD31-AD447D0AF67D}|ShapesColors.csproj|solutionrelative:shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB06EEB-8D08-4C54-BD31-AD447D0AF67D}|ShapesColors.csproj|D:\\Codes\\uni\\C# 2 semester\\ShapesColors\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB06EEB-8D08-4C54-BD31-AD447D0AF67D}|ShapesColors.csproj|solutionrelative:rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FBB06EEB-8D08-4C54-BD31-AD447D0AF67D}|ShapesColors.csproj|D:\\Codes\\uni\\C# 2 semester\\ShapesColors\\shapemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBB06EEB-8D08-4C54-BD31-AD447D0AF67D}|ShapesColors.csproj|solutionrelative:shapemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,7 +11,23 @@
       "RelativeMoniker": "D:0:0:{FBB06EEB-8D08-4C54-BD31-AD447D0AF67D}|ShapesColors.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBB06EEB-8D08-4C54-BD31-AD447D0AF67D}|ShapesColors.csproj|d:\\codes\\uni\\c# 2 semester\\shapescolors\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FBB06EEB-8D08-4C54-BD31-AD447D0AF67D}|ShapesColors.csproj|D:\\Codes\\uni\\C# 2 semester\\ShapesColors\\ellipse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB06EEB-8D08-4C54-BD31-AD447D0AF67D}|ShapesColors.csproj|solutionrelative:ellipse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB06EEB-8D08-4C54-BD31-AD447D0AF67D}|ShapesColors.csproj|D:\\Codes\\uni\\C# 2 semester\\ShapesColors\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB06EEB-8D08-4C54-BD31-AD447D0AF67D}|ShapesColors.csproj|solutionrelative:rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB06EEB-8D08-4C54-BD31-AD447D0AF67D}|ShapesColors.csproj|D:\\Codes\\uni\\C# 2 semester\\ShapesColors\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB06EEB-8D08-4C54-BD31-AD447D0AF67D}|ShapesColors.csproj|solutionrelative:shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB06EEB-8D08-4C54-BD31-AD447D0AF67D}|ShapesColors.csproj|d:\\codes\\uni\\c# 2 semester\\shapescolors\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB06EEB-8D08-4C54-BD31-AD447D0AF67D}|ShapesColors.csproj|solutionrelative:triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB06EEB-8D08-4C54-BD31-AD447D0AF67D}|ShapesColors.csproj|D:\\Codes\\uni\\C# 2 semester\\ShapesColors\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FBB06EEB-8D08-4C54-BD31-AD447D0AF67D}|ShapesColors.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,52 +46,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Triangle.cs",
               "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\ShapesColors\\Triangle.cs",
               "RelativeDocumentMoniker": "Triangle.cs",
               "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\ShapesColors\\Triangle.cs",
               "RelativeToolTip": "Triangle.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAABsAAAAJAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T13:39:19.068Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ShapeManager.cs",
               "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\ShapesColors\\ShapeManager.cs",
               "RelativeDocumentMoniker": "ShapeManager.cs",
               "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\ShapesColors\\ShapeManager.cs",
               "RelativeToolTip": "ShapeManager.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAASwEkAAAA4AAAA",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAnwGUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-15T05:48:56.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\ShapesColors\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\ShapesColors\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAAADgAAAA9AAAA",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAawHQAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T05:45:51.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Ellipse.cs",
               "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\ShapesColors\\Ellipse.cs",
               "RelativeDocumentMoniker": "Ellipse.cs",
               "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\ShapesColors\\Ellipse.cs",
               "RelativeToolTip": "Ellipse.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAABMAAAAJAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T05:39:41.977Z",
               "EditorCaption": ""
@@ -104,20 +104,20 @@
               "RelativeDocumentMoniker": "Rectangle.cs",
               "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\ShapesColors\\Rectangle.cs",
               "RelativeToolTip": "Rectangle.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAABMAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T05:35:02.224Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Shape.cs",
               "DocumentMoniker": "D:\\Codes\\uni\\C# 2 semester\\ShapesColors\\Shape.cs",
               "RelativeDocumentMoniker": "Shape.cs",
               "ToolTip": "D:\\Codes\\uni\\C# 2 semester\\ShapesColors\\Shape.cs",
               "RelativeToolTip": "Shape.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABkAAAAJAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwC0AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T05:30:29.155Z",
               "EditorCaption": ""

@@ -15,6 +15,7 @@ namespace ShapesColors
         protected int width;
         protected int height;
         protected Color color;
+        protected Color fillColor = Color.Empty;
         protected PointF[] nodes;
         public Shape(int x, int y, int width, int height, Color color)
         {
@@ -42,8 +43,7 @@ namespace ShapesColors
         {
             return this.x <= x && (this.x + this.width) >= x && this.y <= y && (this.y + this.height) >= y;
         }
-        public int GetHighEdge() => this.y;
-        public Color Color {  set { this.color = value; } }
+        public Color FillColor { set { this.fillColor = value; } }
 
         public int X { get { return this.x; } }
         public int Y { get { return this.y; } }

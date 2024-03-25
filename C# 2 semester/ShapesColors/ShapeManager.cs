@@ -5,6 +5,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace ShapesColors
 {
@@ -25,7 +26,7 @@ namespace ShapesColors
             return instance;
         }
 
-        public void AddShape(Shape shape) {  shapes.Add(shape); }
+        public void AddShape(Shape shape) { shapes.Add(shape); }
 
         public void Draw(Graphics graph)
         {
@@ -99,7 +100,7 @@ namespace ShapesColors
         {
             if (IsSelectShape())
             {
-                shapes[selectedInd].Color = color;
+                shapes[selectedInd].FillColor = color;
             }
         }
     }

@@ -10,7 +10,7 @@ namespace WorkspaceTuning
     {
         protected int x = 33;
         protected int y = 267;
-        protected int width = 722;
+        protected int width = 350;
         protected int height = 171;
         protected Bitmap image;
 
